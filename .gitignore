@@ -1,3 +1,9 @@
+# general
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+*.DS_Store
 
-
-data/*
+data/catslu/*
+data/SMP2017ECDT-DATA/*
