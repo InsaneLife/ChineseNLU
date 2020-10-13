@@ -6,4 +6,5 @@ __pycache__/
 *.DS_Store
 
 data/catslu/*
+!data/catslu/ICMI 2019 CATSLU.pdf
 data/SMP2017ECDT-DATA/*
