@@ -40,5 +40,4 @@ def read_file(file_:str, splitter:str=None):
     return out_arr
 
 if __name__ == "__main__":
-    
     pass
