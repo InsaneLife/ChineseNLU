@@ -2,8 +2,8 @@
 #encoding=utf-8
 '''
 @Time    :   2020/09/14 23:51:13
-@Author  :   zhiyang.zzy 
-@Contact :   zhiyangchou@gmail.com
+@Author  :   Zhiyang.zzy 
+@Contact :   Zhiyangchou@gmail.com
 @Desc    :   
 todo: 
 - BiLstm + CRF
