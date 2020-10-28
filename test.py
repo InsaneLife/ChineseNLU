@@ -16,6 +16,12 @@ todo:
 # here put the import lib
 import tensorflow as tf
 
+from data_process.cat_slu import CatSLU
+
+
+if __name__ == "__main__":
+    s = CatSLU()
+    pass
 
 
 

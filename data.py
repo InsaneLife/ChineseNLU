@@ -13,6 +13,7 @@ todo:
 # here put the import lib
 from inspect import isbuiltin
 import json
+from os import read
 import random
 from tensorflow.python.keras.backend import dtype
 import yaml
@@ -20,7 +21,8 @@ from sklearn.model_selection import train_test_split
 from tensorflow.python.keras.preprocessing import sequence
 import math
 import numpy as np
-from util import read_file, convert_to_unicode
+import os 
+from util import read_file, convert_to_unicode, read_json
 
 def parse_smp2020_json_file(file_):
     """
@@ -146,3 +148,32 @@ class Vocabulary(object):
 
     def __len__(self):
         return len(self.voc2id)
+
+class CatSLU(object):
+    def __init__(self, dir_, ):
+        self.dir_ = './data/catslu/catslu_traindev/data/map/'
+        ontology = self.load_ontology(self.dir_ + "ontology.json")
+        train_ = read_json(self.dir_ + 'train.json')
+        dev_ = read_json(self.dir_ + 'development.json')
+        # 判断哪些槽位没有在query中的，
+
+
+    @staticmethod
+    def load_ontology(ontology_file_path):
+        src_base_dir = os.path.dirname(ontology_file_path)
+        ontology = json.load(open(ontology_file_path))
+
+        for slot in list(ontology['slots']['informable']):
+            values = ontology['slots']['informable'][slot]
+            ## load lexicon file
+            if type(values) == str:
+                values = [line.strip() for line in open(os.path.join(src_base_dir, values)) if line.strip() != ""]
+            ontology['slots']['informable'][slot] = set(values)
+
+        return ontology
+    
+    # 读取文件，./data/catslu/catslu_traindev/data/
+    
+
+if __name__ == "__main__":
+    pass

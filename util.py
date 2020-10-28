@@ -11,6 +11,7 @@
 import os 
 import six
 import time
+import json
 
 def convert_to_unicode(text):
     """Converts `text` to Unicode (if it's not already), assuming utf-8 input."""
@@ -39,6 +40,11 @@ def read_file(file_:str, splitter:str=None):
             out_arr = [x.split(splitter) for x in out_arr]
     return out_arr
 
+def read_json(file_:str):
+    out_arr = []
+    with open(file_, encoding="utf-8") as f: 
+        out_arr = json.load(f)
+    return out_arr
 
 def get_chunk_type(tok, id2tag):
     """
@@ -135,6 +141,103 @@ def alignment(sentence, tags):
         # entity_type[sentence[pos_start:].encode("utf-8")] = cur_tag
         entity_type.append((sentence[pos_start:].encode("utf-8"), cur_tag))
     return entity_type
+
+class Vocabulary(object):
+    def __init__(self, meta_file=None, allow_unk=0, unk="$UNK$", pad="$PAD$", max_len=None):
+        self.voc2id = {}
+        self.id2voc = {}
+        self.unk = unk
+        self.pad = pad
+        self.max_len = max_len
+        self.allow_unk = allow_unk
+        if meta_file:
+            with open(meta_file, encoding='utf-8') as f:
+                for i, line in enumerate(f):
+                    line = convert_to_unicode(line.strip("\n"))
+                    self.voc2id[line] = i
+                    self.id2voc[i] = line
+            self.size = len(self.voc2id)
+            self.oov_num = self.size + 1
+
+    def fit(self, words_list):
+        """
+        :param words_list: [[w11, w12, ...], [w21, w22, ...], ...]
+        :return:
+        """
+        word_lst = []
+        word_lst_append = word_lst.append
+        for words in words_list:
+            if not isinstance(words, list):
+                print(words)
+                continue
+            for word in words:
+                word = convert_to_unicode(word)
+                word_lst_append(word)
+        word_counts = Counter(word_lst)
+        if self.max_num_word < 0:
+            self.max_num_word = len(word_counts)
+        sorted_voc = [w for w, c in word_counts.most_common(self.max_num_word)]
+        self.max_num_word = len(sorted_voc)
+        self.oov_index = self.max_num_word + 1
+        self.voc2id = dict(zip(sorted_voc, range(1, self.max_num_word + 1)))
+        return self
+
+    def _transform2id(self, word):
+        word = convert_to_unicode(word)
+        if word in self.voc2id:
+            return self.voc2id[word]
+        elif self.allow_unk:
+            return self.voc2id[self.unk]
+        else:
+            print(word)
+            raise ValueError("word:{} Not in voc2id, please check".format(word))
+
+    def _transform_seq2id(self, words, padding=0):
+        out_ids = []
+        words = convert_to_unicode(words)
+        if self.max_len:
+            words = words[:self.max_len]
+        for w in words:
+            out_ids.append(self._transform2id(w))
+        if padding and self.max_len:
+            while len(out_ids) < self.max_len:
+                out_ids.append(0)
+        return out_ids
+    
+    def _transform_intent2ont_hot(self, words, padding=0):
+        # 将多标签意图转为 one_hot
+        out_ids = np.zeros(self.size, dtype=np.float32)
+        words = convert_to_unicode(words)
+        for w in words:
+            out_ids[self._transform2id(w)] = 1.0
+        return out_ids
+
+    def _transform_seq2bert_id(self, words, padding=0):
+        out_ids, seq_len = [], 0
+        words = convert_to_unicode(words)
+        if self.max_len:
+            words = words[:self.max_len]
+        seq_len = len(words)
+        # 插入 [CLS], [SEP]
+        out_ids.append(self._transform2id("[CLS]"))
+        for w in words:
+            out_ids.append(self._transform2id(w))
+        mask_ids = [1 for _ in out_ids]
+        if padding and self.max_len:
+            while len(out_ids) < self.max_len + 1:
+                out_ids.append(0)
+                mask_ids.append(0)
+        seg_ids = [0 for _ in out_ids]
+        return out_ids, mask_ids, seg_ids, seq_len
+
+    def transform(self, seq_list, is_bert=0):
+        if is_bert:
+            return [self._transform_seq2bert_id(seq) for seq in seq_list]
+        else:
+            return [self._transform_seq2id(seq) for seq in seq_list]
+
+    def __len__(self):
+        return len(self.voc2id)
 
 if __name__ == "__main__":
     pass
