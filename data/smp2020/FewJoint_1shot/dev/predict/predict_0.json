@@ -1,0 +1,1002 @@
+[
+    {
+        "domain": "temperature",
+        "text": "摄氏30度等于几度的华氏度",
+        "id": 0,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏30度等于华氏度多少度",
+        "id": 1,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏30度能换成华氏温度是几度",
+        "id": 2,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "我想知道摄氏30度大约是多少华氏度",
+        "id": 3,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "告诉我摄氏温度30度是多少华氏温度",
+        "id": 4,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "30摄氏度为华氏度几度",
+        "id": 5,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "30摄氏度约华氏度多少度",
+        "id": 6,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏30度大约多少度华氏度",
+        "id": 7,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏30度大概华氏度几度",
+        "id": 8,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏30度约为几度华氏度",
+        "id": 9,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "30摄氏度大概为华氏度几度",
+        "id": 10,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "30摄氏度应该等于华氏度几度",
+        "id": 11,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏30度约是华氏度多少度",
+        "id": 12,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏30度约等于多少开尔文",
+        "id": 13,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "30摄氏度大约是多少开尔文",
+        "id": 14,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "30摄氏度约是多少开尔文",
+        "id": 15,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "360度华氏度换算成摄氏度是多少",
+        "id": 16,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "360度华氏度是多少摄氏度",
+        "id": 17,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏360度等于多少摄氏度",
+        "id": 18,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏360度是多少摄氏度",
+        "id": 19,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏360度是摄氏温度的多少度",
+        "id": 20,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏360度等同于多少度的摄氏度",
+        "id": 21,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏温度360度应该是多少开尔文",
+        "id": 22,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏温度360度换成开尔文是多少",
+        "id": 23,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "3华氏度是几度",
+        "id": 24,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "25度是多少兰氏度呀",
+        "id": 25,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "可以帮我算一下多少摄氏度等于80华氏度",
+        "id": 26,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "30开氏度是多少摄氏度呢",
+        "id": 27,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "10摄氏度是多少华氏度呢",
+        "id": 28,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "几兰氏度等于2度",
+        "id": 29,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "多少摄氏度等于80列氏度呢",
+        "id": 30,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "到底30兰氏度等于多少度啊",
+        "id": 31,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "你觉得30华氏度是几度",
+        "id": 32,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "多少摄氏度等于30兰氏度呢",
+        "id": 33,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏度怎么转换成兰氏度呢",
+        "id": 34,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "你知道开氏度怎么换成兰氏度么",
+        "id": 35,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "帮我把20华氏度转化成摄氏度",
+        "id": 36,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "100摄氏度转化成兰氏度是几",
+        "id": 37,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "70摄氏度是多少开氏度呀",
+        "id": 38,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "帮我查一下40华氏度是多少开氏度",
+        "id": 39,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "10华氏度等于多少开尔文",
+        "id": 40,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "10华氏度大约是多少开尔文",
+        "id": 41,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏25度应该是多少开氏度",
+        "id": 42,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "60华氏度为多少摄氏度",
+        "id": 43,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏360度换成摄氏温度是几度",
+        "id": 44,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏360是多少华氏度",
+        "id": 45,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "开氏度57度为几度的摄氏度",
+        "id": 46,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "告诉我兰氏度360度等于摄氏度几度",
+        "id": 47,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "跟我说兰氏度360度是多少华氏度",
+        "id": 48,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度360度等于多少开尔文",
+        "id": 49,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度温度360度是多少开尔文",
+        "id": 50,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "开氏度30度大概等于几度华氏度",
+        "id": 51,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度换成列氏度",
+        "id": 52,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "列氏度换算成摄氏度",
+        "id": 53,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度换成摄氏度",
+        "id": 54,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度换算成列氏度",
+        "id": 55,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度等于多少兰氏度",
+        "id": 56,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "把华氏度换算成列氏度",
+        "id": 57,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "帮我把华氏度换成列氏度",
+        "id": 58,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "我需要把华氏度换成列氏度",
+        "id": 59,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度等于多少华氏度",
+        "id": 60,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "开氏度换成华氏度",
+        "id": 61,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "开尔文换算成华氏度",
+        "id": 62,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度怎么换算成华氏度",
+        "id": 63,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度大概是多少华氏度",
+        "id": 64,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度大约是多少华氏度",
+        "id": 65,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度约是多少华氏度",
+        "id": 66,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度和华氏度",
+        "id": 67,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度换成华氏度",
+        "id": 68,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度换算成华氏度",
+        "id": 69,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "把摄氏度换算成华氏度",
+        "id": 70,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "我需要把摄氏度换算成华氏度",
+        "id": 71,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度换成开尔文",
+        "id": 72,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "华氏度换成列氏度",
+        "id": 73,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "我想把列氏度换成兰氏度",
+        "id": 74,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "帮我把兰氏度换成列氏度",
+        "id": 75,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "把华氏度换算成兰氏度好吗",
+        "id": 76,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "你会将列氏度换成兰氏度吗",
+        "id": 77,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度怎么换成列氏度",
+        "id": 78,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度怎么换算成列氏度",
+        "id": 79,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度等于多少开氏度",
+        "id": 80,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "帮我把兰氏度换算成开氏度",
+        "id": 81,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度换成开氏度",
+        "id": 82,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度怎么换算成开氏度",
+        "id": 83,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度大概是多少开氏度",
+        "id": 84,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "列氏度约是多少开氏度",
+        "id": 85,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度约是多少开氏度",
+        "id": 86,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度大约是多少开氏度",
+        "id": 87,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度和开氏度",
+        "id": 88,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度换算成开氏度",
+        "id": 89,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "开氏度换成摄氏度",
+        "id": 90,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度换算成华氏度",
+        "id": 91,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "帮我把开氏度换成列氏度",
+        "id": 92,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "摄氏度换算成兰氏度",
+        "id": 93,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "我需要把列氏度换成开氏度",
+        "id": 94,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "把开氏度换成列氏度",
+        "id": 95,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "兰氏度换算成开氏度是怎么换算的呀",
+        "id": 96,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "帮我把摄氏度换算成兰氏度",
+        "id": 97,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "开氏度等于多少摄氏度",
+        "id": 98,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    },
+    {
+        "domain": "temperature",
+        "text": "把列氏度换成兰氏度怎么换算",
+        "id": 99,
+        "intent": "x",
+        "slots": {
+            "x1": "y1",
+            "x2": "y2"
+        }
+    }
+]

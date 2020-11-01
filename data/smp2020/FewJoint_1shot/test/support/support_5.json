@@ -1,0 +1,10 @@
+[
+    {
+        "domain": "drama",
+        "text": "辕门外三声炮",
+        "intent": "QUERY",
+        "slots": {
+            "selections": "辕门外三声炮"
+        }
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "domain": "holiday",
+        "text": "春节从几号放到几号",
+        "intent": "QUERY",
+        "slots": {
+            "name": "春节"
+        }
+    },
+	{
+        "domain": "holiday",
+        "text": "春节放假到几号开始上班",
+        "intent": "QUERY",
+        "slots": {
+            "name": "春节"
+        }
+    },
+    {
+        "domain": "holiday",
+        "text": "劳动节如何调休",
+        "intent": "QUERY",
+        "slots": {
+            "name": "劳动节"
+        }
+    },
+    {
+        "domain": "holiday",
+        "text": "18年劳动节什么时候开始放假",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "18年",
+            "name": "劳动节"
+        }
+    },
+	{
+        "domain": "holiday",
+        "text": "给我说一下国庆几号开始上班",
+        "intent": "QUERY",
+        "slots": {
+            "name": "国庆"
+        }
+    },
+	{
+        "domain": "holiday",
+        "text": "给我说下今年五一放几天",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "今年",
+            "name": "五一"
+        }
+    },
+	{
+    "domain": "holiday",
+    "text": "建军节是只有军人放假吗",
+    "intent": "QUERY",
+    "slots": {
+      "name": "建军节"
+    }
+  },
+  {
+    "domain": "holiday",
+    "text": "你能告诉我国庆节怎么放假吗",
+    "intent": "QUERY",
+    "slots": {
+      "name": "国庆节"
+    }
+  },
+  {
+    "domain": "holiday",
+    "text": "帮我搜索下五一的放假安排",
+    "intent": "QUERY",
+    "slots": {
+      "name": "五一"
+    }
+  },
+    {
+        "domain": "holiday",
+        "text": "今年上半年有哪些假期",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "今年上半年"
+        }
+    },
+	{
+        "domain": "holiday",
+        "text": "今年的节假日分别在几月几号",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "今年"
+        }
+    },
+	
+	{
+        "domain": "holiday",
+        "text": "我想了解一下端午节放假时间",
+        "intent": "QUERY",
+        "slots": {
+            "name": "端午节"
+        }
+    },
+    {
+        "domain": "holiday",
+        "text": "需不需要上班啊26号",
+        "intent": "DAYTYPE_QUERY",
+        "slots": {
+            "datetime_date": "26号"
+        }
+    },
+	{
+        "domain": "holiday",
+        "text": "周一上班吗",
+        "intent": "DAYTYPE_QUERY",
+        "slots": {
+            "datetime_date": "周一"
+        }
+    },
+    {
+        "domain": "holiday",
+        "text": "周二上班嘛",
+        "intent": "DAYTYPE_QUERY",
+        "slots": {
+            "datetime_date": "周二"
+        }
+    },
+    {
+        "domain": "holiday",
+        "text": "周三上班不",
+        "intent": "DAYTYPE_QUERY",
+        "slots": {
+            "datetime_date": "周三"
+        }
+    },
+    {
+        "domain": "holiday",
+        "text": "周一要上班吗",
+        "intent": "DAYTYPE_QUERY",
+        "slots": {
+            "datetime_date": "周一"
+        }
+    },
+	{
+    "domain": "holiday",
+    "text": "这个周三要上班不",
+    "intent": "DAYTYPE_QUERY",
+    "slots": {
+      "datetime_date": "周三"
+    }
+  },
+  {
+    "domain": "holiday",
+    "text": "下周一上班吗",
+    "intent": "DAYTYPE_QUERY",
+    "slots": {
+      "datetime_date": "下周一"
+    }
+  },
+  {
+    "domain": "holiday",
+    "text": "下周二上班嘛",
+    "intent": "DAYTYPE_QUERY",
+    "slots": {
+      "datetime_date": "下周二"
+    }
+  },
+    {
+        "domain": "holiday",
+        "text": "周二要上班嘛",
+        "intent": "DAYTYPE_QUERY",
+        "slots": {
+            "datetime_date": "周二"
+        }
+    },
+    
+    {
+        "domain": "holiday",
+        "text": "这周二休息嘛",
+        "intent": "DAYTYPE_QUERY",
+        "slots": {
+            "datetime_date": "周二"
+        }
+    }
+]

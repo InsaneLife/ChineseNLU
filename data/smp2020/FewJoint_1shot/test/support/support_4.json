@@ -1,0 +1,45 @@
+[
+    {
+        "domain": "timesTable",
+        "text": "退出乘法表吧",
+        "intent": "MULTIPLY_EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "3乘1等于多少",
+        "intent": "MULTIPLY_ONE",
+        "slots": {
+            "multiplier": "3",
+            "multiplicand": "1"
+        }
+    },
+    {
+        "domain": "timesTable",
+        "text": "4乘7等于多少",
+        "intent": "MULTIPLY_ONE",
+        "slots": {
+            "multiplier": "4",
+            "multiplicand": "7"
+        }
+    },
+    {
+        "domain": "timesTable",
+        "text": "打开九九乘法表完整的",
+        "intent": "MULTIPLY_ALL",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "给我出一个九九乘法表的题",
+        "intent": "MULTIPLY_REMEMBER",
+        "slots": {}
+    },
+    
+    {
+        "domain": "timesTable",
+        "text": "能不能告诉我完整的九九乘法表",
+        "intent": "MULTIPLY_ALL",
+        "slots": {}
+    }
+]

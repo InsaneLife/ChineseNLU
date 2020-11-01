@@ -1,0 +1,240 @@
+[
+    {
+        "domain": "captialInfo",
+        "text": "越南的首都在哪",
+        "intent": "SEARCH_BY_COUNTRY",
+        "slots": {
+            "country": "越南"
+        }
+    },
+	{
+        "domain": "captialInfo",
+        "text": "意大利的首都在哪里",
+        "intent": "SEARCH_BY_COUNTRY",
+        "slots": {
+            "country": "意大利"
+        }
+    },
+	{
+        "domain": "captialInfo",
+        "text": "韩国的首都是首尔吗",
+        "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+        "slots": {
+            "country": "韩国",
+            "city": "首尔"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "哪里是法国的首都",
+        "intent": "SEARCH_BY_COUNTRY",
+        "slots": {
+            "country": "法国"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "布达佩斯是匈牙利的首都吗",
+        "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+        "slots": {
+            "city": "布达佩斯",
+            "country": "匈牙利"
+        }
+    },
+	 {
+        "domain": "captialInfo",
+        "text": "德国、俄罗斯的首都分别是什么",
+        "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+        "slots": {
+            "country": "德国",
+            "nation": "俄罗斯"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "美国、俄罗斯的首都分别是什么",
+        "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+        "slots": {
+            "country": "美国",
+            "nation": "俄罗斯"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "哈尔滨、罗马哪个是匈牙利的首都",
+        "intent": "SEARCH_ABOUT_TWO_CITY",
+        "slots": {
+            "city": "哈尔滨",
+            "town": "罗马",
+            "country": "匈牙利"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "卢旺达、突尼斯的首都分别在哪里",
+        "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+        "slots": {
+            "country": "卢旺达",
+            "nation": "突尼斯"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "利比亚、尼日尔的首都分别在哪",
+        "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+        "slots": {
+            "country": "利比亚",
+            "nation": "尼日尔"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "乌干达、苏里南的首都分别在哪",
+        "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+        "slots": {
+            "country": "乌干达",
+            "nation": "苏里南"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "哈萨克斯坦的首都是不是努尔苏丹",
+        "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+        "slots": {
+            "country": "哈萨克斯坦",
+            "city": "努尔苏丹"
+        }
+    },
+	{
+        "domain": "captialInfo",
+        "text": "是否北京是中国的首都",
+        "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+        "slots": {
+            "city": "北京",
+            "country": "中国"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "深圳是首都吗",
+        "intent": "SEARCH_BY_CAPTIAL",
+        "slots": {
+            "city": "深圳"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "缅甸的首都是哪儿",
+        "intent": "SEARCH_BY_COUNTRY",
+        "slots": {
+            "country": "缅甸"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "挪威是以奥斯陆为首都吗",
+        "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+        "slots": {
+            "country": "挪威",
+            "city": "奥斯陆"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "帮我查下巴西的首都在哪",
+        "intent": "SEARCH_BY_COUNTRY",
+        "slots": {
+            "country": "巴西"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "伦敦是哪个国家的首都",
+        "intent": "SEARCH_BY_CAPTIAL",
+        "slots": {
+            "city": "伦敦"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "我需要查下乌兰巴托是哪个国家的首都",
+        "intent": "SEARCH_BY_CAPTIAL",
+        "slots": {
+            "city": "乌兰巴托"
+        }
+    },
+	{
+        "domain": "captialInfo",
+        "text": "东京、大阪哪个是日本的首都",
+        "intent": "SEARCH_ABOUT_TWO_CITY",
+        "slots": {
+            "city": "东京",
+            "town": "大阪",
+            "country": "日本"
+        }
+    },
+	{
+        "domain": "captialInfo",
+        "text": "里昂、巴黎哪个是法国的首都",
+        "intent": "SEARCH_ABOUT_TWO_CITY",
+        "slots": {
+            "city": "里昂",
+            "town": "巴黎",
+            "country": "法国"
+        }
+    },
+	{
+        "domain": "captialInfo",
+        "text": "帮我查下华盛顿是哪个国家的首都",
+        "intent": "SEARCH_BY_CAPTIAL",
+        "slots": {
+            "city": "华盛顿"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "可不可以帮我查下华盛顿是哪个国家的首都",
+        "intent": "SEARCH_BY_CAPTIAL",
+        "slots": {
+            "city": "华盛顿"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "替我查下华盛顿是哪个国家的首都",
+        "intent": "SEARCH_BY_CAPTIAL",
+        "slots": {
+            "city": "华盛顿"
+        }
+    },
+	
+    {
+        "domain": "captialInfo",
+        "text": "呼和浩特和蚌埠哪个是乌干达的首都",
+        "intent": "SEARCH_ABOUT_TWO_CITY",
+        "slots": {
+            "city": "呼和浩特",
+            "town": "蚌埠",
+            "country": "乌干达"
+        }
+    },
+	{
+        "domain": "captialInfo",
+        "text": "汉堡、柏林哪个是德国的首都",
+        "intent": "SEARCH_ABOUT_TWO_CITY",
+        "slots": {
+            "city": "汉堡",
+            "town": "柏林",
+            "country": "德国"
+        }
+    },
+    {
+        "domain": "captialInfo",
+        "text": "青岛和济南是不是首都",
+        "intent": "SEARCH_ABOUT_TWO_CITY",
+        "slots": {
+            "city": "青岛",
+            "town": "济南"
+        }
+    }
+]

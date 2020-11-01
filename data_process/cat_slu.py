@@ -26,15 +26,27 @@ from util import read_file, convert_to_unicode, read_json
 
 class CatSLU(object):
     def __init__(self, ):
-        self.dir_ = './data/catslu/catslu_traindev/data/map/'
+        # 以下作为分类：
+        # request所有
+        # map域：
+        # 'inform', '操作; 'value', 'dontcare'; 终点名称, 公司; 
+        # 操作 大部分都在，但是 退出 等不在
+        # 请求类型: 几个附近、周边、旁边都是相似的。定位是不一样的。（定位也在inform-对象中）
+        # 如果是其他槽位，如果不在query中，那么case略过。
+        # music: '歌曲名', 'dontcare';
+
+        self.dir_ = './data/catslu/catslu_traindev/data/music/'
         ontology = self.load_ontology(self.dir_ + "ontology.json")
         train_ = read_json(self.dir_ + 'train.json')
         dev_ = read_json(self.dir_ + 'development.json')
+        test_ = read_json('./data/catslu/catslu_test/data/map/test.json')
         # 判断哪些槽位没有在query中的，
         train_arr = []
         for dlg in train_:
             for turn in  dlg['utterances']:
                 q = turn['manual_transcript']
+                if 'unknown' in q:
+                    continue
                 sm = turn['semantic']
                 # acts分类：inform， deny， request
                 for slots in sm:
@@ -42,8 +54,11 @@ class CatSLU(object):
                         act, k, v = slots
                     elif len(slots) == 2:
                         act, v = slots
+                    # if k in ['请求类型', '对象', 'value'] or act == 'request':
+                    #     continue
                     if v not in q:
-                        print(q)
+                        print(q, slots)
+                        # print()
         pass
 
 

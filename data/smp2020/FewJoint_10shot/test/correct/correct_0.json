@@ -1,0 +1,737 @@
+[
+  {
+    "domain": "captialInfo",
+    "text": "釜山、首尔哪个是韩国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "釜山",
+      "town": "首尔",
+      "country": "韩国"
+    },
+    "id": 4
+  },
+  {
+    "domain": "captialInfo",
+    "text": "釜山是韩国的首都吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "釜山",
+      "country": "韩国"
+    },
+    "id": 5
+  },
+  {
+    "domain": "captialInfo",
+    "text": "韩国的首都是釜山吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "country": "韩国",
+      "city": "釜山"
+    },
+    "id": 6
+  },
+  {
+    "domain": "captialInfo",
+    "text": "釜山是不是韩国的首都",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "釜山",
+      "country": "韩国"
+    },
+    "id": 7
+  },
+  {
+    "domain": "captialInfo",
+    "text": "哪里是意大利的首都",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "意大利"
+    },
+    "id": 8
+  },
+  {
+    "domain": "captialInfo",
+    "text": "泰国的首都是哪个城市",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "泰国"
+    },
+    "id": 10
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国的首都是上海吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "country": "中国",
+      "city": "上海"
+    },
+    "id": 11
+  },
+  {
+    "domain": "captialInfo",
+    "text": "北京、上海哪个是中国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "北京",
+      "town": "上海",
+      "country": "中国"
+    },
+    "id": 12
+  },
+  {
+    "domain": "captialInfo",
+    "text": "东京是日本的首都吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "东京",
+      "country": "日本"
+    },
+    "id": 14
+  },
+  {
+    "domain": "captialInfo",
+    "text": "东京、曼谷哪个是日本的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "东京",
+      "town": "曼谷",
+      "country": "日本"
+    },
+    "id": 15
+  },
+  {
+    "domain": "captialInfo",
+    "text": "东京、曼谷哪个是泰国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "东京",
+      "town": "曼谷",
+      "country": "泰国"
+    },
+    "id": 16
+  },
+  {
+    "domain": "captialInfo",
+    "text": "东京是不是日本的首都吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "东京",
+      "country": "日本"
+    },
+    "id": 17
+  },
+  {
+    "domain": "captialInfo",
+    "text": "曼谷是泰国的首都吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "曼谷",
+      "country": "泰国"
+    },
+    "id": 18
+  },
+  {
+    "domain": "captialInfo",
+    "text": "意大利的首都是罗马还是米兰",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "country": "意大利",
+      "city": "米兰"
+    },
+    "id": 19
+  },
+  {
+    "domain": "captialInfo",
+    "text": "德国的首都是不是柏林",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "country": "德国",
+      "city": "柏林"
+    },
+    "id": 23
+  },
+  {
+    "domain": "captialInfo",
+    "text": "汉堡是德国的首都吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "汉堡",
+      "country": "德国"
+    },
+    "id": 24
+  },
+  {
+    "domain": "captialInfo",
+    "text": "俄罗斯的首都在哪",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "俄罗斯"
+    },
+    "id": 26
+  },
+  {
+    "domain": "captialInfo",
+    "text": "俄罗斯的首都是圣彼得堡吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "country": "俄罗斯",
+      "city": "圣彼得堡"
+    },
+    "id": 27
+  },
+  {
+    "domain": "captialInfo",
+    "text": "圣彼得堡、莫斯科哪个是俄罗斯的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "圣彼得堡",
+      "town": "莫斯科",
+      "country": "俄罗斯"
+    },
+    "id": 28
+  },
+  {
+    "domain": "captialInfo",
+    "text": "波兰的首都是华沙吗",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "country": "波兰",
+      "city": "华沙"
+    },
+    "id": 31
+  },
+  {
+    "domain": "captialInfo",
+    "text": "维也纳、华沙哪个是波兰的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "维也纳",
+      "town": "华沙",
+      "country": "波兰"
+    },
+    "id": 32
+  },
+  {
+    "domain": "captialInfo",
+    "text": "维也纳、华沙哪个是奥地利的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "维也纳",
+      "town": "华沙",
+      "country": "奥地利"
+    },
+    "id": 33
+  },
+  {
+    "domain": "captialInfo",
+    "text": "英国、加拿大的首都在哪里",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "英国",
+      "nation": "加拿大"
+    },
+    "id": 36
+  },
+  {
+    "domain": "captialInfo",
+    "text": "乌拉圭、阿根廷的首都分别在哪",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "乌拉圭",
+      "nation": "阿根廷"
+    },
+    "id": 39
+  },
+  {
+    "domain": "captialInfo",
+    "text": "哥伦比亚、玻利维亚的首都分别在哪",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "哥伦比亚",
+      "nation": "玻利维亚"
+    },
+    "id": 40
+  },
+  {
+    "domain": "captialInfo",
+    "text": "美国和英国的首都分别是",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "美国",
+      "nation": "英国"
+    },
+    "id": 42
+  },
+  {
+    "domain": "captialInfo",
+    "text": "韩国和朝鲜的首都分别是哪个",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "韩国",
+      "nation": "朝鲜"
+    },
+    "id": 43
+  },
+  {
+    "domain": "captialInfo",
+    "text": "北京是不是中国的首都啊",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "北京",
+      "country": "中国"
+    },
+    "id": 45
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国是不是以北京为首都",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "country": "中国",
+      "city": "北京"
+    },
+    "id": 48
+  },
+  {
+    "domain": "captialInfo",
+    "text": "是不是北京是中国的首都",
+    "intent": "SEARCH_BY_COUNTRY_CAPTIAL",
+    "slots": {
+      "city": "北京",
+      "country": "中国"
+    },
+    "id": 50
+  },
+  {
+    "domain": "captialInfo",
+    "text": "你知不知道北京是哪个国家的首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "北京"
+    },
+    "id": 54
+  },
+  {
+    "domain": "captialInfo",
+    "text": "是否能告诉我北京是哪里的首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "北京"
+    },
+    "id": 56
+  },
+  {
+    "domain": "captialInfo",
+    "text": "找一下中国的首都是哪里",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 58
+  },
+  {
+    "domain": "captialInfo",
+    "text": "查一下中国的首都是哪儿",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 59
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国的首都是什么",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 60
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国首都是什么地方",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 61
+  },
+  {
+    "domain": "captialInfo",
+    "text": "查询中国的首都",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 62
+  },
+  {
+    "domain": "captialInfo",
+    "text": "你能查一下中国的首都吗",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 63
+  },
+  {
+    "domain": "captialInfo",
+    "text": "我想知道北京属于哪个国家的首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "北京"
+    },
+    "id": 65
+  },
+  {
+    "domain": "captialInfo",
+    "text": "查下北京是哪个国家的首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "北京"
+    },
+    "id": 66
+  },
+  {
+    "domain": "captialInfo",
+    "text": "北京市是哪国的首都啊",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "北京市"
+    },
+    "id": 67
+  },
+  {
+    "domain": "captialInfo",
+    "text": "查询北京是哪个国家的首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "北京"
+    },
+    "id": 68
+  },
+  {
+    "domain": "captialInfo",
+    "text": "请问中国的首都在哪",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 69
+  },
+  {
+    "domain": "captialInfo",
+    "text": "华盛顿是首都吗",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "华盛顿"
+    },
+    "id": 74
+  },
+  {
+    "domain": "captialInfo",
+    "text": "请问华盛顿是首都吗",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "华盛顿"
+    },
+    "id": 75
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国的首都你知道吗",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 76
+  },
+  {
+    "domain": "captialInfo",
+    "text": "查找一下中国的首都",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "中国"
+    },
+    "id": 77
+  },
+  {
+    "domain": "captialInfo",
+    "text": "华盛顿是那个国家的首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "华盛顿"
+    },
+    "id": 79
+  },
+  {
+    "domain": "captialInfo",
+    "text": "华盛顿是那个国家的首都嘛",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "华盛顿"
+    },
+    "id": 80
+  },
+  {
+    "domain": "captialInfo",
+    "text": "告诉我华盛顿是哪个国家的首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "华盛顿"
+    },
+    "id": 81
+  },
+  {
+    "domain": "captialInfo",
+    "text": "想知道华盛顿是首都吗",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "华盛顿"
+    },
+    "id": 82
+  },
+  {
+    "domain": "captialInfo",
+    "text": "美国的首都在哪呢",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "美国"
+    },
+    "id": 83
+  },
+  {
+    "domain": "captialInfo",
+    "text": "你知道美国的首都吗",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "美国"
+    },
+    "id": 84
+  },
+  {
+    "domain": "captialInfo",
+    "text": "合肥应该是首都",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "合肥"
+    },
+    "id": 85
+  },
+  {
+    "domain": "captialInfo",
+    "text": "告诉我合肥是首都吗",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "合肥"
+    },
+    "id": 86
+  },
+  {
+    "domain": "captialInfo",
+    "text": "合肥是不是首都你知道吗",
+    "intent": "SEARCH_BY_CAPTIAL",
+    "slots": {
+      "city": "合肥"
+    },
+    "id": 87
+  },
+  {
+    "domain": "captialInfo",
+    "text": "洛杉矶和华盛顿哪个是美国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "洛杉矶",
+      "town": "华盛顿",
+      "country": "美国"
+    },
+    "id": 88
+  },
+  {
+    "domain": "captialInfo",
+    "text": "告诉我一下洛杉矶和华盛顿哪个是美国的首都呗",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "洛杉矶",
+      "town": "华盛顿",
+      "country": "美国"
+    },
+    "id": 92
+  },
+  {
+    "domain": "captialInfo",
+    "text": "给我说下洛杉矶和华盛顿哪个是美国的首都吧",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "洛杉矶",
+      "town": "华盛顿",
+      "country": "美国"
+    },
+    "id": 93
+  },
+  {
+    "domain": "captialInfo",
+    "text": "查下洛杉矶和华盛顿哪个是美国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "洛杉矶",
+      "town": "华盛顿",
+      "country": "美国"
+    },
+    "id": 94
+  },
+  {
+    "domain": "captialInfo",
+    "text": "替我查下洛杉矶和华盛顿哪个是美国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "洛杉矶",
+      "town": "华盛顿",
+      "country": "美国"
+    },
+    "id": 95
+  },
+  {
+    "domain": "captialInfo",
+    "text": "北京和上海哪个是中国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "北京",
+      "town": "上海",
+      "country": "中国"
+    },
+    "id": 96
+  },
+  {
+    "domain": "captialInfo",
+    "text": "上海和南京哪个才是中国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "上海",
+      "town": "南京",
+      "country": "中国"
+    },
+    "id": 97
+  },
+  {
+    "domain": "captialInfo",
+    "text": "南京和上海哪个是中国的首都",
+    "intent": "SEARCH_ABOUT_TWO_CITY",
+    "slots": {
+      "city": "南京",
+      "town": "上海",
+      "country": "中国"
+    },
+    "id": 98
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国和法国的首都分别在哪",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "中国",
+      "nation": "法国"
+    },
+    "id": 99
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国和法国的首都分别在哪个城市",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "中国",
+      "nation": "法国"
+    },
+    "id": 100
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国和法国的首都是哪个地区",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "中国",
+      "nation": "法国"
+    },
+    "id": 101
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国和法国分别是哪个国家的首都",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "中国",
+      "nation": "法国"
+    },
+    "id": 102
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国和法国的首都分别在哪里",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "中国",
+      "nation": "法国"
+    },
+    "id": 103
+  },
+  {
+    "domain": "captialInfo",
+    "text": "美国和英国的首都城市在哪里",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "美国",
+      "nation": "英国"
+    },
+    "id": 104
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国和法国的首都城市分别在哪里",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "中国",
+      "nation": "法国"
+    },
+    "id": 105
+  },
+  {
+    "domain": "captialInfo",
+    "text": "美国和俄罗斯的首都分别是哪两个",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "美国",
+      "nation": "俄罗斯"
+    },
+    "id": 106
+  },
+  {
+    "domain": "captialInfo",
+    "text": "中国和美国的又是啥呀",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "中国",
+      "nation": "美国"
+    },
+    "id": 107
+  },
+  {
+    "domain": "captialInfo",
+    "text": "查一下英国和法国的首都分别是哪个 ",
+    "intent": "SEARCH_ABOUT_TWO_COUNTRY",
+    "slots": {
+      "country": "英国",
+      "nation": "法国"
+    },
+    "id": 108
+  },
+  {
+    "domain": "captialInfo",
+    "text": "法国的首都又是哪个",
+    "intent": "SEARCH_BY_COUNTRY",
+    "slots": {
+      "country": "法国"
+    },
+    "id": 109
+  }
+]

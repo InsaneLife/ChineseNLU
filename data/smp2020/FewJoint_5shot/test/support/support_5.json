@@ -1,0 +1,88 @@
+[
+    {
+        "domain": "drama",
+        "text": "辕门外三声炮",
+        "intent": "QUERY",
+        "slots": {
+            "selections": "辕门外三声炮"
+        }
+    },
+    {
+        "domain": "drama",
+        "text": "我想听谁料皇榜中状元",
+        "intent": "QUERY",
+        "slots": {
+            "selections": "谁料皇榜中状元"
+        }
+    },
+	{
+    "domain": "drama",
+    "text": "我想听女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    }
+  },
+  {
+    "domain": "drama",
+    "text": "听女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    }
+  },
+    
+    {
+        "domain": "drama",
+        "text": "穆桂英挂帅辕门外三声炮",
+        "intent": "QUERY",
+        "slots": {
+            "name": "穆桂英挂帅",
+            "selections": "辕门外三声炮"
+        }
+    },
+    {
+        "domain": "drama",
+        "text": "放一下天津快板",
+        "intent": "QUERY",
+        "slots": {
+            "category": "天津快板"
+        }
+    },
+	{
+    "domain": "drama",
+    "text": "粤剧有哪些比较著名的",
+    "intent": "QUERY",
+    "slots": {
+      "category": "粤剧"
+    }
+  },
+  {
+    "domain": "drama",
+    "text": "有粤剧吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "粤剧"
+    }
+  },
+  {
+    "domain": "drama",
+    "text": "有没有越剧花木兰",
+    "intent": "QUERY",
+    "slots": {
+      "category": "越剧",
+      "name": "花木兰"
+    }
+  },
+  {
+    "domain": "drama",
+    "text": "我想听红楼梦唱段越剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "越剧",
+      "name": "红楼梦"
+    }
+  }
+]

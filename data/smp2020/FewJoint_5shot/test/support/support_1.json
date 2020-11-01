@@ -1,0 +1,290 @@
+[
+    {
+        "domain": "idiomsDict",
+        "text": "你知道有哪些关于下雨的成语吗",
+        "intent": "CATEGORY_QUERY",
+        "slots": {
+            "category": "下雨"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "可不可以查一下关于团结的成语",
+        "intent": "CATEGORY_QUERY",
+        "slots": {
+            "category": "团结"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "能不能找一下技艺高超的成语",
+        "intent": "CATEGORY_QUERY",
+        "slots": {
+            "category": "技艺高超"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "哪些成语的第一个字为赢",
+        "intent": "FIRST_WORD",
+        "slots": {
+            "firstword": "赢"
+        }
+    },
+	{
+        "domain": "idiomsDict",
+        "text": "典故来自清朝的成语有哪些",
+        "intent": "CATEGORY_QUERY",
+        "slots": {
+            "category": "清朝"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "形容一个人有壮志雄心的成语",
+        "intent": "CATEGORY_QUERY",
+        "slots": {
+            "category": "有壮志雄心"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "我的心情很高兴有什么成语来表达",
+        "intent": "CATEGORY_QUERY",
+        "slots": {
+            "category": "心情很高兴"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "有没有大开头的成语",
+        "intent": "FIRST_WORD",
+        "slots": {
+            "firstword": "大"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "可不可以查一下长字开头的成语",
+        "intent": "FIRST_WORD",
+        "slots": {
+            "firstword": "长"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "偷梁换柱可以用在什么情况下",
+        "intent": "HOW_USE",
+        "slots": {
+            "idiom_name": "偷梁换柱"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "成语凤凰于飞的使用有什么规定",
+        "intent": "HOW_USE",
+        "slots": {
+            "idiom_name": "凤凰于飞"
+        }
+    },
+	{
+        "domain": "idiomsDict",
+        "text": "查询心有余悸的用法",
+        "intent": "HOW_USE",
+        "slots": {
+            "idiom_name": "心有余悸"
+        }
+    },
+	{
+        "domain": "idiomsDict",
+        "text": "如何正确使用成语借花献佛",
+        "intent": "HOW_USE",
+        "slots": {
+            "idiom_name": "借花献佛"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "帮我找找成语叶公好龙",
+        "intent": "HOW_USE",
+        "slots": {
+            "idiom_name": "叶公好龙"
+        }
+    },
+	{
+        "domain": "idiomsDict",
+        "text": "我想查询带家字的成语",
+        "intent": "INCLUDE_WORD",
+        "slots": {
+            "word": "家"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "可不可以找一下带十的成语",
+        "intent": "INCLUDE_WORD",
+        "slots": {
+            "word": "十"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "说出几个带天字和地字的成语",
+        "intent": "INCLUDE_WORD",
+        "slots": {
+            "word": "地"
+        }
+    },
+	{
+        "domain": "idiomsDict",
+        "text": "以“我”开头的成语有吗",
+        "intent": "FIRST_WORD",
+        "slots": {
+            "firstword": "我"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "查一下以“我”字开头的成语",
+        "intent": "FIRST_WORD",
+        "slots": {
+            "firstword": "我"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "我想查询带一马的成语",
+        "intent": "INCLUDE_WORD",
+        "slots": {
+            "word": "一马"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "含有德的成语有哪些",
+        "intent": "INCLUDE_WORD",
+        "slots": {
+            "word": "德"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "什么成语尾字为天",
+        "intent": "LAST_WORD",
+        "slots": {
+            "lastword": "天"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "随字结尾有什么成语",
+        "intent": "LAST_WORD",
+        "slots": {
+            "lastword": "随"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "你知道媛结尾的成语吗",
+        "intent": "LAST_WORD",
+        "slots": {
+            "lastword": "媛"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "柳暗花明这个成语有哪些意义",
+        "intent": "QUERY",
+        "slots": {
+            "idiom_name": "柳暗花明"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "帮帮我找下相濡以沫这个成语的解释",
+        "intent": "QUERY",
+        "slots": {
+            "idiom_name": "相濡以沫"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "成语金枝玉叶有几层含义",
+        "intent": "QUERY",
+        "slots": {
+            "idiom_name": "金枝玉叶"
+        }
+    },
+	 {
+        "domain": "idiomsDict",
+        "text": "成语偷天换日有什么含义",
+        "intent": "QUERY",
+        "slots": {
+            "idiom_name": "偷天换日"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "给我讲讲草木皆兵什么意思",
+        "intent": "QUERY",
+        "slots": {
+            "idiom_name": "草木皆兵"
+        }
+    },
+	{
+        "domain": "idiomsDict",
+        "text": "我想了解什么船的成语",
+        "intent": "LAST_WORD",
+        "slots": {
+            "lastword": "船"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "查询什么海的成语",
+        "intent": "LAST_WORD",
+        "slots": {
+            "lastword": "海"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "成语南辕北辙的出处",
+        "intent": "SOURCE_QUERY",
+        "slots": {
+            "idiom_name": "南辕北辙"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "国色天香出自哪个经典事例",
+        "intent": "SOURCE_QUERY",
+        "slots": {
+            "idiom_name": "国色天香"
+        }
+    },
+	{
+        "domain": "idiomsDict",
+        "text": "帮我查一下金蝉脱壳这个故事的来源",
+        "intent": "SOURCE_QUERY",
+        "slots": {
+            "idiom_name": "金蝉脱壳"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "对牛弹琴的典故是什么",
+        "intent": "SOURCE_QUERY",
+        "slots": {
+            "idiom_name": "对牛弹琴"
+        }
+    },
+    {
+        "domain": "idiomsDict",
+        "text": "给我找下卧虎藏龙出自哪个典故",
+        "intent": "SOURCE_QUERY",
+        "slots": {
+            "idiom_name": "卧虎藏龙"
+        }
+    }
+]

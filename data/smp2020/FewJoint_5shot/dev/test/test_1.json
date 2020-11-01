@@ -1,0 +1,502 @@
+[
+    {
+        "domain": "wordFinding",
+        "text": "查找反义词",
+        "id": 229
+    },
+    {
+        "domain": "wordFinding",
+        "text": "查找近义词",
+        "id": 230
+    },
+    {
+        "domain": "wordFinding",
+        "text": "查找同义词",
+        "id": 231
+    },
+    {
+        "domain": "wordFinding",
+        "text": "反义词查询",
+        "id": 232
+    },
+    {
+        "domain": "wordFinding",
+        "text": "好的近义词",
+        "id": 233
+    },
+    {
+        "domain": "wordFinding",
+        "text": "红的反义词",
+        "id": 234
+    },
+    {
+        "domain": "wordFinding",
+        "text": "坏的反义词",
+        "id": 235
+    },
+    {
+        "domain": "wordFinding",
+        "text": "远的近义词",
+        "id": 236
+    },
+    {
+        "domain": "wordFinding",
+        "text": "安静的近义词",
+        "id": 237
+    },
+    {
+        "domain": "wordFinding",
+        "text": "安静的同义词",
+        "id": 238
+    },
+    {
+        "domain": "wordFinding",
+        "text": "悲伤的近义词",
+        "id": 239
+    },
+    {
+        "domain": "wordFinding",
+        "text": "奔跑的反义词",
+        "id": 240
+    },
+    {
+        "domain": "wordFinding",
+        "text": "惆怅的反义词",
+        "id": 241
+    },
+    {
+        "domain": "wordFinding",
+        "text": "词和安静相反",
+        "id": 242
+    },
+    {
+        "domain": "wordFinding",
+        "text": "聪明的近义词",
+        "id": 243
+    },
+    {
+        "domain": "wordFinding",
+        "text": "肥胖的反义词",
+        "id": 244
+    },
+    {
+        "domain": "wordFinding",
+        "text": "近的反义词是",
+        "id": 245
+    },
+    {
+        "domain": "wordFinding",
+        "text": "魁梧的近义词",
+        "id": 246
+    },
+    {
+        "domain": "wordFinding",
+        "text": "落下的近义词",
+        "id": 247
+    },
+    {
+        "domain": "wordFinding",
+        "text": "美好的近义词",
+        "id": 248
+    },
+    {
+        "domain": "wordFinding",
+        "text": "朋友的近义词",
+        "id": 249
+    },
+    {
+        "domain": "wordFinding",
+        "text": "平淡的近义词",
+        "id": 250
+    },
+    {
+        "domain": "wordFinding",
+        "text": "奇怪的近义词",
+        "id": 251
+    },
+    {
+        "domain": "wordFinding",
+        "text": "勤劳的同义词",
+        "id": 252
+    },
+    {
+        "domain": "wordFinding",
+        "text": "阴天的近义词",
+        "id": 253
+    },
+    {
+        "domain": "wordFinding",
+        "text": "忧郁的近义词",
+        "id": 254
+    },
+    {
+        "domain": "wordFinding",
+        "text": "整齐的同义词",
+        "id": 255
+    },
+    {
+        "domain": "wordFinding",
+        "text": "白富美的反义词",
+        "id": 256
+    },
+    {
+        "domain": "wordFinding",
+        "text": "给我查下反义词",
+        "id": 257
+    },
+    {
+        "domain": "wordFinding",
+        "text": "和安静相反的词",
+        "id": 258
+    },
+    {
+        "domain": "wordFinding",
+        "text": "缓慢有反义词吗",
+        "id": 259
+    },
+    {
+        "domain": "wordFinding",
+        "text": "上班有反义词吗",
+        "id": 260
+    },
+    {
+        "domain": "wordFinding",
+        "text": "温柔有反义词吗",
+        "id": 261
+    },
+    {
+        "domain": "wordFinding",
+        "text": "查询缓慢的反义词",
+        "id": 262
+    },
+    {
+        "domain": "wordFinding",
+        "text": "成功近义词是什么",
+        "id": 263
+    },
+    {
+        "domain": "wordFinding",
+        "text": "惩罚的近义词是啥",
+        "id": 264
+    },
+    {
+        "domain": "wordFinding",
+        "text": "大的反义词是什么",
+        "id": 265
+    },
+    {
+        "domain": "wordFinding",
+        "text": "高的反义词是什么",
+        "id": 266
+    },
+    {
+        "domain": "wordFinding",
+        "text": "高兴有哪些近义词",
+        "id": 267
+    },
+    {
+        "domain": "wordFinding",
+        "text": "孤独的反义词是啥",
+        "id": 268
+    },
+    {
+        "domain": "wordFinding",
+        "text": "开心有什么近义词",
+        "id": 269
+    },
+    {
+        "domain": "wordFinding",
+        "text": "腼腆有哪些近义词",
+        "id": 270
+    },
+    {
+        "domain": "wordFinding",
+        "text": "宁静有哪些近义词",
+        "id": 271
+    },
+    {
+        "domain": "wordFinding",
+        "text": "安静的近义词是什么",
+        "id": 272
+    },
+    {
+        "domain": "wordFinding",
+        "text": "悲伤的近义词有哪些",
+        "id": 273
+    },
+    {
+        "domain": "wordFinding",
+        "text": "差异的近义词有哪些",
+        "id": 274
+    },
+    {
+        "domain": "wordFinding",
+        "text": "吵闹的近义词是什么",
+        "id": 275
+    },
+    {
+        "domain": "wordFinding",
+        "text": "费劲的反义词是什么",
+        "id": 276
+    },
+    {
+        "domain": "wordFinding",
+        "text": "高兴的反义词是什么",
+        "id": 277
+    },
+    {
+        "domain": "wordFinding",
+        "text": "孤独的反义词怎么读",
+        "id": 278
+    },
+    {
+        "domain": "wordFinding",
+        "text": "很远的近义词是什么",
+        "id": 279
+    },
+    {
+        "domain": "wordFinding",
+        "text": "活蹦乱跳有反义词吗",
+        "id": 280
+    },
+    {
+        "domain": "wordFinding",
+        "text": "健康的反义词是什么",
+        "id": 281
+    },
+    {
+        "domain": "wordFinding",
+        "text": "开放的近义词有哪些",
+        "id": 282
+    },
+    {
+        "domain": "wordFinding",
+        "text": "开心的近义词是什么",
+        "id": 283
+    },
+    {
+        "domain": "wordFinding",
+        "text": "开心的近义词有哪些",
+        "id": 284
+    },
+    {
+        "domain": "wordFinding",
+        "text": "念一下漂亮的反义词",
+        "id": 285
+    },
+    {
+        "domain": "wordFinding",
+        "text": "漂亮的反义词是什么",
+        "id": 286
+    },
+    {
+        "domain": "wordFinding",
+        "text": "平淡的反义词是什么",
+        "id": 287
+    },
+    {
+        "domain": "wordFinding",
+        "text": "平淡的反义词有哪些",
+        "id": 288
+    },
+    {
+        "domain": "wordFinding",
+        "text": "奇怪的反义词是什么",
+        "id": 289
+    },
+    {
+        "domain": "wordFinding",
+        "text": "容易的近义词有哪些",
+        "id": 290
+    },
+    {
+        "domain": "wordFinding",
+        "text": "善良的近义词是什么",
+        "id": 291
+    },
+    {
+        "domain": "wordFinding",
+        "text": "生气的同义词是什么",
+        "id": 292
+    },
+    {
+        "domain": "wordFinding",
+        "text": "安定的近义词是宁静吗",
+        "id": 293
+    },
+    {
+        "domain": "wordFinding",
+        "text": "聒噪的反义词是安静吗",
+        "id": 294
+    },
+    {
+        "domain": "wordFinding",
+        "text": "明亮的反义词是昏暗吗",
+        "id": 295
+    },
+    {
+        "domain": "wordFinding",
+        "text": "哪个词是安静的近义词",
+        "id": 296
+    },
+    {
+        "domain": "wordFinding",
+        "text": "哪个词是平淡的反义词",
+        "id": 297
+    },
+    {
+        "domain": "wordFinding",
+        "text": "哪些词是安静的同义词",
+        "id": 298
+    },
+    {
+        "domain": "wordFinding",
+        "text": "宁静的反义词帮我查下",
+        "id": 299
+    },
+    {
+        "domain": "wordFinding",
+        "text": "生气的近义词是愤怒吗",
+        "id": 300
+    },
+    {
+        "domain": "wordFinding",
+        "text": "生气是开心的反义词吗",
+        "id": 301
+    },
+    {
+        "domain": "wordFinding",
+        "text": "我爱你的反义词是什么",
+        "id": 302
+    },
+    {
+        "domain": "wordFinding",
+        "text": "我想查询平淡的反义词",
+        "id": 303
+    },
+    {
+        "domain": "wordFinding",
+        "text": "向往的反义词是哪几个",
+        "id": 304
+    },
+    {
+        "domain": "wordFinding",
+        "text": "查看平淡的反义词有哪些",
+        "id": 305
+    },
+    {
+        "domain": "wordFinding",
+        "text": "和安静同义的词都有什么",
+        "id": 306
+    },
+    {
+        "domain": "wordFinding",
+        "text": "缓慢的反义词给我念一下",
+        "id": 307
+    },
+    {
+        "domain": "wordFinding",
+        "text": "开心的反义词读给我听听",
+        "id": 308
+    },
+    {
+        "domain": "wordFinding",
+        "text": "开心是不是高兴的近义词",
+        "id": 309
+    },
+    {
+        "domain": "wordFinding",
+        "text": "理所应当的反义词是什么",
+        "id": 310
+    },
+    {
+        "domain": "wordFinding",
+        "text": "美人如花的同义词有什么",
+        "id": 311
+    },
+    {
+        "domain": "wordFinding",
+        "text": "哪个词跟整齐的意思相反",
+        "id": 312
+    },
+    {
+        "domain": "wordFinding",
+        "text": "搜索平淡的近义词是什么",
+        "id": 313
+    },
+    {
+        "domain": "wordFinding",
+        "text": "有哪些词跟缓慢意思相近",
+        "id": 314
+    },
+    {
+        "domain": "wordFinding",
+        "text": "珍贵的近义词是不是宝贵",
+        "id": 315
+    },
+    {
+        "domain": "wordFinding",
+        "text": "查询与平淡意思相反的词语",
+        "id": 316
+    },
+    {
+        "domain": "wordFinding",
+        "text": "查一下平淡的反义词有哪些",
+        "id": 317
+    },
+    {
+        "domain": "wordFinding",
+        "text": "查一下平淡的近义词是什么",
+        "id": 318
+    },
+    {
+        "domain": "wordFinding",
+        "text": "告诉我懒惰的反义词是什么",
+        "id": 319
+    },
+    {
+        "domain": "wordFinding",
+        "text": "我想看下平淡的近义词是什么",
+        "id": 320
+    },
+    {
+        "domain": "wordFinding",
+        "text": "我想找与平淡意思相近的词语",
+        "id": 321
+    },
+    {
+        "domain": "wordFinding",
+        "text": "与平淡意思相近的词语有哪些",
+        "id": 322
+    },
+    {
+        "domain": "wordFinding",
+        "text": "帮我查询与平淡意思相近的词语",
+        "id": 323
+    },
+    {
+        "domain": "wordFinding",
+        "text": "替我搜一下平淡的反义词是什么",
+        "id": 324
+    },
+    {
+        "domain": "wordFinding",
+        "text": "帮我查一下与平淡意思相反的词语",
+        "id": 325
+    },
+    {
+        "domain": "wordFinding",
+        "text": "你能告诉我不开心的反义词是什么",
+        "id": 326
+    },
+    {
+        "domain": "wordFinding",
+        "text": "能不能给我查下平淡的反义词是什么",
+        "id": 327
+    },
+    {
+        "domain": "wordFinding",
+        "text": "可不可以帮我看下平淡的反义词是什么",
+        "id": 328
+    }
+]

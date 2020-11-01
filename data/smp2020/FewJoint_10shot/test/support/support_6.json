@@ -1,0 +1,212 @@
+[
+    {
+        "domain": "length",
+        "text": "90纳米是多少寸呢",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "90",
+            "srcLengthUnit": "纳米",
+            "destLengthUnit": "寸"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "10米大约是几公里呀",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "10",
+            "srcLengthUnit": "米",
+            "destLengthUnit": "公里"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "10米等于多少分米",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "10",
+            "srcLengthUnit": "米",
+            "destLengthUnit": "分米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "20丈是多少里呀",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "20",
+            "srcLengthUnit": "丈",
+            "destLengthUnit": "里"
+        }
+    },
+	{
+    "domain": "length",
+    "text": "25里是多少丈呀",
+    "intent": "length",
+    "slots": {
+      "srcLengthNumber": "25",
+      "srcLengthUnit": "里",
+      "destLengthUnit": "丈"
+    }
+  },
+	{
+    "domain": "length",
+    "text": "1尺是多少微米呀",
+    "intent": "length",
+    "slots": {
+      "srcLengthNumber": "1",
+      "srcLengthUnit": "尺",
+      "destLengthUnit": "微米"
+    }
+  },
+    {
+        "domain": "length",
+        "text": "多少里等于1千米",
+        "intent": "length",
+        "slots": {
+            "destLengthUnit": "里",
+            "srcLengthNumber": "1",
+            "srcLengthUnit": "千米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "分米和米是怎么换算的呀",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "分米",
+            "destLengthUnit": "米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "多少毫米等于1米呀",
+        "intent": "length",
+        "slots": {
+            "destLengthUnit": "毫米",
+            "srcLengthNumber": "1",
+            "srcLengthUnit": "米"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "多少米等于10千米呀",
+        "intent": "length",
+        "slots": {
+            "destLengthUnit": "米",
+            "srcLengthNumber": "10",
+            "srcLengthUnit": "千米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "1米等于多少厘米呀",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "1",
+            "srcLengthUnit": "米",
+            "destLengthUnit": "厘米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "18英尺是多少英里呀",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "18",
+            "srcLengthUnit": "英尺",
+            "destLengthUnit": "英里"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "1000微米等于1纳米吗",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "1000",
+            "srcLengthUnit": "微米",
+            "destLengthUnit": "纳米"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "厘米和千米是怎么换算的呀",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "厘米",
+            "destLengthUnit": "千米"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "你知道分米和米怎么换算吗",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "分米",
+            "destLengthUnit": "米"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "英里和米是怎么换算的呀",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "英里",
+            "destLengthUnit": "米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "千米约是多少分米",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "千米",
+            "destLengthUnit": "分米"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "尺和英尺是怎么转换的呀",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "尺",
+            "destLengthUnit": "英尺"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "英寸和厘米之间是怎么算的",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "英寸",
+            "destLengthUnit": "厘米"
+        }
+    },
+	{
+        "domain": "length",
+        "text": "厘米和毫米是怎么换算的呀",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "厘米",
+            "destLengthUnit": "毫米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "丈和尺之间是怎么算的",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "丈",
+            "destLengthUnit": "尺"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "分米和毫米之前怎么换算呀",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "分米",
+            "destLengthUnit": "毫米"
+        }
+    }
+]

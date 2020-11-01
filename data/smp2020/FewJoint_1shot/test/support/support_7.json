@@ -1,0 +1,62 @@
+[
+    {
+        "domain": "story",
+        "text": "播放巴金的故事",
+        "intent": "QUERY",
+        "slots": {
+            "author": "巴金"
+        }
+    },
+    {
+        "domain": "story",
+        "text": "小孩子喜欢听什么故事啊",
+        "intent": "RANDOM_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "寓言故事乌鸦喝水给我来一段",
+        "intent": "QUERY",
+        "slots": {
+            "category": "寓言",
+            "name": "乌鸦喝水"
+        }
+    },
+    {
+        "domain": "story",
+        "text": "上一个",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "切换下一个故事",
+        "intent": "NEXT",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "他还写过别的故事吗",
+        "intent": "OTHERS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "重讲一遍",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "上一个故事",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "我想听上一集故事",
+        "intent": "PREVIOUS",
+        "slots": {}
+    }
+    
+]

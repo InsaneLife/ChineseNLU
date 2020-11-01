@@ -1,0 +1,597 @@
+[
+    {
+        "domain": "story",
+        "text": "讲个故事吧",
+        "id": 0
+    },
+    {
+        "domain": "story",
+        "text": "听一听故事",
+        "id": 1
+    },
+    {
+        "domain": "story",
+        "text": "听一下故事",
+        "id": 2
+    },
+    {
+        "domain": "story",
+        "text": "我要听故事",
+        "id": 3
+    },
+    {
+        "domain": "story",
+        "text": "赶紧讲个故事",
+        "id": 4
+    },
+    {
+        "domain": "story",
+        "text": "好想听故事啊",
+        "id": 5
+    },
+    {
+        "domain": "story",
+        "text": "讲个故事听听",
+        "id": 6
+    },
+    {
+        "domain": "story",
+        "text": "来一首故事吧",
+        "id": 7
+    },
+    {
+        "domain": "story",
+        "text": "搜索爱情故事",
+        "id": 8
+    },
+    {
+        "domain": "story",
+        "text": "我能听故事吗",
+        "id": 9
+    },
+    {
+        "domain": "story",
+        "text": "我想听汪汪队",
+        "id": 10
+    },
+    {
+        "domain": "story",
+        "text": "无聊想听故事",
+        "id": 11
+    },
+    {
+        "domain": "story",
+        "text": "想在线听故事",
+        "id": 12
+    },
+    {
+        "domain": "story",
+        "text": "给我讲成语故事",
+        "id": 13
+    },
+    {
+        "domain": "story",
+        "text": "给我讲个故事吧",
+        "id": 14
+    },
+    {
+        "domain": "story",
+        "text": "给我讲讲故事吧",
+        "id": 15
+    },
+    {
+        "domain": "story",
+        "text": "给我说一个故事",
+        "id": 16
+    },
+    {
+        "domain": "story",
+        "text": "皇帝的新装会吗",
+        "id": 17
+    },
+    {
+        "domain": "story",
+        "text": "金波爷爷的故事",
+        "id": 18
+    },
+    {
+        "domain": "story",
+        "text": "开启讲故事模式",
+        "id": 19
+    },
+    {
+        "domain": "story",
+        "text": "来一个神话故事",
+        "id": 20
+    },
+    {
+        "domain": "story",
+        "text": "你给我讲故事吧",
+        "id": 21
+    },
+    {
+        "domain": "story",
+        "text": "你会讲什么故事",
+        "id": 22
+    },
+    {
+        "domain": "story",
+        "text": "特别好听的故事",
+        "id": 23
+    },
+    {
+        "domain": "story",
+        "text": "我要听童话故事",
+        "id": 24
+    },
+    {
+        "domain": "story",
+        "text": "小猪佩奇有没有",
+        "id": 25
+    },
+    {
+        "domain": "story",
+        "text": "有什么故事分类",
+        "id": 26
+    },
+    {
+        "domain": "story",
+        "text": "安徒生有哪些故事",
+        "id": 27
+    },
+    {
+        "domain": "story",
+        "text": "儿童故事狼与小羊",
+        "id": 28
+    },
+    {
+        "domain": "story",
+        "text": "放一个故事来听听",
+        "id": 29
+    },
+    {
+        "domain": "story",
+        "text": "放一个幽默的故事",
+        "id": 30
+    },
+    {
+        "domain": "story",
+        "text": "你会说恐怖故事吗",
+        "id": 31
+    },
+    {
+        "domain": "story",
+        "text": "搜索一下人物故事",
+        "id": 32
+    },
+    {
+        "domain": "story",
+        "text": "有哪些推荐的故事",
+        "id": 33
+    },
+    {
+        "domain": "story",
+        "text": "安徒生的故事有没有",
+        "id": 34
+    },
+    {
+        "domain": "story",
+        "text": "儿童故事快乐可可狮",
+        "id": 35
+    },
+    {
+        "domain": "story",
+        "text": "给我放个一千零一夜",
+        "id": 36
+    },
+    {
+        "domain": "story",
+        "text": "给我放一个故事听听",
+        "id": 37
+    },
+    {
+        "domain": "story",
+        "text": "讲个搞笑故事给我听",
+        "id": 38
+    },
+    {
+        "domain": "story",
+        "text": "可以给我讲个故事吗",
+        "id": 39
+    },
+    {
+        "domain": "story",
+        "text": "可以讲故事给我听吗",
+        "id": 40
+    },
+    {
+        "domain": "story",
+        "text": "你给我讲一个故事吧",
+        "id": 41
+    },
+    {
+        "domain": "story",
+        "text": "农夫与蛇的故事有吗",
+        "id": 42
+    },
+    {
+        "domain": "story",
+        "text": "说一下小红帽的故事",
+        "id": 43
+    },
+    {
+        "domain": "story",
+        "text": "听了会变聪明的故事",
+        "id": 44
+    },
+    {
+        "domain": "story",
+        "text": "听一下故事打发时间",
+        "id": 45
+    },
+    {
+        "domain": "story",
+        "text": "想了解一下戏曲故事",
+        "id": 46
+    },
+    {
+        "domain": "story",
+        "text": "有没有我爱听的故事",
+        "id": 47
+    },
+    {
+        "domain": "story",
+        "text": "帮我重新讲一个故事呗",
+        "id": 48
+    },
+    {
+        "domain": "story",
+        "text": "给我随便放一个故事吧",
+        "id": 49
+    },
+    {
+        "domain": "story",
+        "text": "讲一个丑小鸭的故事吧",
+        "id": 50
+    },
+    {
+        "domain": "story",
+        "text": "来个故事打发一下时间",
+        "id": 51
+    },
+    {
+        "domain": "story",
+        "text": "能不能跟我讲个故事啊",
+        "id": 52
+    },
+    {
+        "domain": "story",
+        "text": "排名靠前的故事有哪些",
+        "id": 53
+    },
+    {
+        "domain": "story",
+        "text": "说一些我不知道的故事",
+        "id": 54
+    },
+    {
+        "domain": "story",
+        "text": "搜索安徒生的童话故事",
+        "id": 55
+    },
+    {
+        "domain": "story",
+        "text": "搜索童话故事安徒生的",
+        "id": 56
+    },
+    {
+        "domain": "story",
+        "text": "我好想听感人的小故事",
+        "id": 57
+    },
+    {
+        "domain": "story",
+        "text": "有没有白雪公主的故事",
+        "id": 58
+    },
+    {
+        "domain": "story",
+        "text": "有没有故事可以讲一下",
+        "id": 59
+    },
+    {
+        "domain": "story",
+        "text": "安徒生的童话故事有哪些",
+        "id": 60
+    },
+    {
+        "domain": "story",
+        "text": "讲个狼来了的故事给我听",
+        "id": 61
+    },
+    {
+        "domain": "story",
+        "text": "可以给我放个故事听听吗",
+        "id": 62
+    },
+    {
+        "domain": "story",
+        "text": "孔融让梨是唐朝的故事吗",
+        "id": 63
+    },
+    {
+        "domain": "story",
+        "text": "能不能给我放个故事听听",
+        "id": 64
+    },
+    {
+        "domain": "story",
+        "text": "能不能讲个狼来了的故事",
+        "id": 65
+    },
+    {
+        "domain": "story",
+        "text": "有关于刻苦学习的故事吗",
+        "id": 66
+    },
+    {
+        "domain": "story",
+        "text": "有什么故事让人印象深刻",
+        "id": 67
+    },
+    {
+        "domain": "story",
+        "text": "找一个适合儿童听的故事",
+        "id": 68
+    },
+    {
+        "domain": "story",
+        "text": "给我讲讲三只小猪的故事吧",
+        "id": 69
+    },
+    {
+        "domain": "story",
+        "text": "好无聊给我说个故事听听吧",
+        "id": 70
+    },
+    {
+        "domain": "story",
+        "text": "灰姑娘这个故事要讲多久啊",
+        "id": 71
+    },
+    {
+        "domain": "story",
+        "text": "可不可以给我放个故事听听",
+        "id": 72
+    },
+    {
+        "domain": "story",
+        "text": "有专门讲给幼儿听的故事吗",
+        "id": 73
+    },
+    {
+        "domain": "story",
+        "text": "中国有哪些经典的爱情故事",
+        "id": 74
+    },
+    {
+        "domain": "story",
+        "text": "给我来个三只小猪的故事听听",
+        "id": 75
+    },
+    {
+        "domain": "story",
+        "text": "你能讲一个海的女儿的故事吗",
+        "id": 76
+    },
+    {
+        "domain": "story",
+        "text": "你知道哪些故事能放松心情吗",
+        "id": 77
+    },
+    {
+        "domain": "story",
+        "text": "给我说个最近比较流行的故事吧",
+        "id": 78
+    },
+    {
+        "domain": "story",
+        "text": "讲一个伯乐识马的故事给我听吧",
+        "id": 79
+    },
+    {
+        "domain": "story",
+        "text": "来一个安徒生的童话故事丑小鸭",
+        "id": 80
+    },
+    {
+        "domain": "story",
+        "text": "生活中的经典故事给我来一个吧",
+        "id": 81
+    },
+    {
+        "domain": "story",
+        "text": "我想听安徒生的故事与鸭子有关的",
+        "id": 82
+    },
+    {
+        "domain": "story",
+        "text": "好无聊给我说个安徒生的故事听听吧",
+        "id": 83
+    },
+    {
+        "domain": "story",
+        "text": "能讲一个儿童故事狼与小羊给我听吗",
+        "id": 84
+    },
+    {
+        "domain": "story",
+        "text": "有没有关于卖火柴的小女孩的故事啊",
+        "id": 85
+    },
+    {
+        "domain": "story",
+        "text": "有没有适合入园前的小朋友听的故事",
+        "id": 86
+    },
+    {
+        "domain": "story",
+        "text": "可不可以给我说个卖火柴的小女孩的故事啊",
+        "id": 87
+    },
+    {
+        "domain": "story",
+        "text": "有没有亲子故事迪士尼小公主苏菲亚播放一下",
+        "id": 88
+    },
+    {
+        "domain": "story",
+        "text": "搜一下亲子故事迪士尼小公主苏菲亚给我看",
+        "id": 89
+    },
+    {
+        "domain": "story",
+        "text": "给我找一下亲子故事迪士尼小公主苏菲亚来看",
+        "id": 90
+    },
+    {
+        "domain": "story",
+        "text": "下一个",
+        "id": 91
+    },
+    {
+        "domain": "story",
+        "text": "我想听上一个故事",
+        "id": 92
+    },
+    {
+        "domain": "story",
+        "text": "播放他的其他故事",
+        "id": 93
+    },
+    {
+        "domain": "story",
+        "text": "还有呢",
+        "id": 94
+    },
+    {
+        "domain": "story",
+        "text": "下一集",
+        "id": 95
+    },
+    {
+        "domain": "story",
+        "text": "上一集",
+        "id": 96
+    },
+    {
+        "domain": "story",
+        "text": "播放下一个故事",
+        "id": 97
+    },
+    {
+        "domain": "story",
+        "text": "切换下一集故事",
+        "id": 98
+    },
+    {
+        "domain": "story",
+        "text": "下一集",
+        "id": 99
+    },
+    {
+        "domain": "story",
+        "text": "播放上一个",
+        "id": 100
+    },
+    {
+        "domain": "story",
+        "text": "切换成上一集",
+        "id": 101
+    },
+    {
+        "domain": "story",
+        "text": "换成上一集故事",
+        "id": 102
+    },
+    {
+        "domain": "story",
+        "text": "上一集故事",
+        "id": 103
+    },
+    {
+        "domain": "story",
+        "text": "换上个故事",
+        "id": 104
+    },
+    {
+        "domain": "story",
+        "text": "别的故事有吗",
+        "id": 105
+    },
+    {
+        "domain": "story",
+        "text": "我想听别的故事",
+        "id": 106
+    },
+    {
+        "domain": "story",
+        "text": "有没有其他的故事",
+        "id": 107
+    },
+    {
+        "domain": "story",
+        "text": "我要听其他的故事",
+        "id": 108
+    },
+    {
+        "domain": "story",
+        "text": "换下别的故事",
+        "id": 109
+    },
+    {
+        "domain": "story",
+        "text": "其他故事放一下吧",
+        "id": 110
+    },
+    {
+        "domain": "story",
+        "text": "重新讲一下",
+        "id": 111
+    },
+    {
+        "domain": "story",
+        "text": "重新讲一遍",
+        "id": 112
+    },
+    {
+        "domain": "story",
+        "text": "再讲一下",
+        "id": 113
+    },
+    {
+        "domain": "story",
+        "text": "重新再说一下吧",
+        "id": 114
+    },
+    {
+        "domain": "story",
+        "text": "再说一次",
+        "id": 115
+    },
+    {
+        "domain": "story",
+        "text": "重新再讲一次",
+        "id": 116
+    },
+    {
+        "domain": "story",
+        "text": "重复一下",
+        "id": 117
+    },
+    {
+        "domain": "story",
+        "text": "换下一个故事",
+        "id": 118
+    }
+]

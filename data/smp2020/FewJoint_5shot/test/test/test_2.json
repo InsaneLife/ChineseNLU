@@ -1,0 +1,632 @@
+[
+    {
+        "domain": "virusSearch",
+        "text": "打开新冠病毒地图",
+        "id": 0
+    },
+    {
+        "domain": "virusSearch",
+        "text": "打开疫情地图好吧",
+        "id": 1
+    },
+    {
+        "domain": "virusSearch",
+        "text": "打开新冠病毒地图好吧",
+        "id": 2
+    },
+    {
+        "domain": "virusSearch",
+        "text": "打开新冠病毒地图可以吧",
+        "id": 3
+    },
+    {
+        "domain": "virusSearch",
+        "text": "给我打开新冠病毒地图",
+        "id": 4
+    },
+    {
+        "domain": "virusSearch",
+        "text": "打开疫情地图吧",
+        "id": 5
+    },
+    {
+        "domain": "virusSearch",
+        "text": "打开新冠病毒地图吧",
+        "id": 6
+    },
+    {
+        "domain": "virusSearch",
+        "text": "可以打开疫情地图吗",
+        "id": 7
+    },
+    {
+        "domain": "virusSearch",
+        "text": "可以打开新冠病毒地图吗",
+        "id": 8
+    },
+    {
+        "domain": "virusSearch",
+        "text": "麻烦请打开疫情地图",
+        "id": 9
+    },
+    {
+        "domain": "virusSearch",
+        "text": "麻烦请打开新冠病毒地图",
+        "id": 10
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我想要疫情地图",
+        "id": 11
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我想要新冠病毒地图",
+        "id": 12
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我想要打开疫情地图",
+        "id": 13
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我想要打开新冠病毒地图",
+        "id": 14
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我要疫情地图",
+        "id": 15
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我要新冠病毒地图",
+        "id": 16
+    },
+    {
+        "domain": "virusSearch",
+        "text": "把疫情地图打开",
+        "id": 17
+    },
+    {
+        "domain": "virusSearch",
+        "text": "把新冠病毒地图打开",
+        "id": 18
+    },
+    {
+        "domain": "virusSearch",
+        "text": "帮我把疫情地图打开",
+        "id": 19
+    },
+    {
+        "domain": "virusSearch",
+        "text": "能打开新冠病毒地图吗",
+        "id": 20
+    },
+    {
+        "domain": "virusSearch",
+        "text": "可不可以打开疫情地图",
+        "id": 21
+    },
+    {
+        "domain": "virusSearch",
+        "text": "2月7日全球确诊了多少人",
+        "id": 22
+    },
+    {
+        "domain": "virusSearch",
+        "text": "2月7日全球治愈多少例",
+        "id": 23
+    },
+    {
+        "domain": "virusSearch",
+        "text": "二月八号全球疑似多少人",
+        "id": 24
+    },
+    {
+        "domain": "virusSearch",
+        "text": "全球今天有多少确诊人数",
+        "id": 25
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天多少疑似的",
+        "id": 26
+    },
+    {
+        "domain": "virusSearch",
+        "text": "截止二月七号为止有多少数量的死亡人数",
+        "id": 27
+    },
+    {
+        "domain": "virusSearch",
+        "text": "截止二月七号为止有多少的增加疑似",
+        "id": 28
+    },
+    {
+        "domain": "virusSearch",
+        "text": "直到2月7日为止有多少数量的新增死亡",
+        "id": 29
+    },
+    {
+        "domain": "virusSearch",
+        "text": "直到2月7日为止有多少的增加疑似患者",
+        "id": 30
+    },
+    {
+        "domain": "virusSearch",
+        "text": "到今天为止有多少的增加治愈的人",
+        "id": 31
+    },
+    {
+        "domain": "virusSearch",
+        "text": "直到2月7日为止有多少的增加疑似的病患",
+        "id": 32
+    },
+    {
+        "domain": "virusSearch",
+        "text": "查查看本周的死亡人数吧",
+        "id": 33
+    },
+    {
+        "domain": "virusSearch",
+        "text": "截止今天新型肺炎感染病例确诊多少例了",
+        "id": 34
+    },
+    {
+        "domain": "virusSearch",
+        "text": "能看一下当天疫情确诊病例有多少吗",
+        "id": 35
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天确诊冠状新型病毒有多少例了",
+        "id": 36
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新冠状病毒肺炎现在确诊多少例",
+        "id": 37
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在有多少例确诊的肺炎",
+        "id": 38
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新型病毒现在感染的人死亡多少人",
+        "id": 39
+    },
+    {
+        "domain": "virusSearch",
+        "text": "那现在的新型冠状病毒确诊人数有多少啊",
+        "id": 40
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天有多少人重症",
+        "id": 41
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在有多少重症新增人数",
+        "id": 42
+    },
+    {
+        "domain": "virusSearch",
+        "text": "昨天多少轻症",
+        "id": 43
+    },
+    {
+        "domain": "virusSearch",
+        "text": "全国目前有多少疑似新增人数",
+        "id": 44
+    },
+    {
+        "domain": "virusSearch",
+        "text": "浙江地区有多少数量的疑似的病患",
+        "id": 45
+    },
+    {
+        "domain": "virusSearch",
+        "text": "浙江地区有多少数量的新增死亡患者",
+        "id": 46
+    },
+    {
+        "domain": "virusSearch",
+        "text": "湖南省有多少感染新冠病毒确诊的",
+        "id": 47
+    },
+    {
+        "domain": "virusSearch",
+        "text": "内蒙古因感染新冠病毒而死亡的人数有多少",
+        "id": 48
+    },
+    {
+        "domain": "virusSearch",
+        "text": "湖北感染新型肺炎死亡人数是多少",
+        "id": 49
+    },
+    {
+        "domain": "virusSearch",
+        "text": "到目前为止东北有多少人治愈",
+        "id": 50
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在俄罗斯有多少人确诊的",
+        "id": 51
+    },
+    {
+        "domain": "virusSearch",
+        "text": "全国疑似人数现在达到多少啦",
+        "id": 52
+    },
+    {
+        "domain": "virusSearch",
+        "text": "帮我看一下新疆最新的疑似病例",
+        "id": 53
+    },
+    {
+        "domain": "virusSearch",
+        "text": "山东地区冠状病毒一共确诊病例多少人了",
+        "id": 54
+    },
+    {
+        "domain": "virusSearch",
+        "text": "辽宁疫情确诊了多少人",
+        "id": 55
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在新冠状病毒的人数有多少确诊的",
+        "id": 56
+    },
+    {
+        "domain": "virusSearch",
+        "text": "这些新型冠状病毒有多少人治愈",
+        "id": 57
+    },
+    {
+        "domain": "virusSearch",
+        "text": "福建有多少人因为这次疫情死亡",
+        "id": 58
+    },
+    {
+        "domain": "virusSearch",
+        "text": "全国多少新增重症人数",
+        "id": 59
+    },
+    {
+        "domain": "virusSearch",
+        "text": "上海这边有多少的增加确证的重症患者",
+        "id": 60
+    },
+    {
+        "domain": "virusSearch",
+        "text": "上个礼拜六全国多少新增的新冠病例",
+        "id": 61
+    },
+    {
+        "domain": "virusSearch",
+        "text": "到今天为止辽宁那边有多少数量的增加",
+        "id": 62
+    },
+    {
+        "domain": "virusSearch",
+        "text": "截止二月七号为止浙江地区有多少数量的肺炎",
+        "id": 63
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天辽宁有多少患者啦",
+        "id": 64
+    },
+    {
+        "domain": "virusSearch",
+        "text": "你知道全国今天的新型冠状病毒感染情况吗",
+        "id": 65
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天全国地区有多少数量的新增冠状病人",
+        "id": 66
+    },
+    {
+        "domain": "virusSearch",
+        "text": "搜搜全国今日的新增人数",
+        "id": 67
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在有多少新增新冠肺炎病例",
+        "id": 68
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在疫情爆发有多少人死亡",
+        "id": 69
+    },
+    {
+        "domain": "virusSearch",
+        "text": "2月12日合肥市多少的病例",
+        "id": 70
+    },
+    {
+        "domain": "virusSearch",
+        "text": "武汉的病毒现在感染人数有多少了",
+        "id": 71
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在感染疫情的人数有多少",
+        "id": 72
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天肺炎新增人数",
+        "id": 73
+    },
+    {
+        "domain": "virusSearch",
+        "text": "帮我查一下现在新冠病毒有多少例了",
+        "id": 74
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国病例新冠状病毒一共有多少",
+        "id": 75
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国冠状病毒感染的病例有多少",
+        "id": 76
+    },
+    {
+        "domain": "virusSearch",
+        "text": "冠状感染郑州现在有多少病例",
+        "id": 77
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天中国增加多少个肺炎病例",
+        "id": 78
+    },
+    {
+        "domain": "virusSearch",
+        "text": "珠海今天有没有新增的冠状病毒病例",
+        "id": 79
+    },
+    {
+        "domain": "virusSearch",
+        "text": "请给我查一下今天的肺炎新增病例",
+        "id": 80
+    },
+    {
+        "domain": "virusSearch",
+        "text": "上个礼拜六全国多少轻症新增人数",
+        "id": 81
+    },
+    {
+        "domain": "virusSearch",
+        "text": "感染新冠病毒的疑似患者全国有多少啦",
+        "id": 82
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我想知道安徽省的新型冠状病毒感染者的最新数据",
+        "id": 83
+    },
+    {
+        "domain": "virusSearch",
+        "text": "看看辽宁今天的新型冠状病毒感染数据吧",
+        "id": 84
+    },
+    {
+        "domain": "virusSearch",
+        "text": "最新的新增人数有多少",
+        "id": 85
+    },
+    {
+        "domain": "virusSearch",
+        "text": "疑似病人多少了今天的",
+        "id": 86
+    },
+    {
+        "domain": "virusSearch",
+        "text": "2020年新型冠状病毒一共有多少人确诊",
+        "id": 87
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天有多少人肺炎确诊",
+        "id": 88
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新型冠状病毒肺炎确诊有多少人",
+        "id": 89
+    },
+    {
+        "domain": "virusSearch",
+        "text": "临床确诊的新型冠状肺炎有多少例",
+        "id": 90
+    },
+    {
+        "domain": "virusSearch",
+        "text": "有多少人确诊了新冠病毒",
+        "id": 91
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新型冠状病毒导致死亡的人数现在是多少",
+        "id": 92
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新型冠状病毒全国死亡人数是多少",
+        "id": 93
+    },
+    {
+        "domain": "virusSearch",
+        "text": "目前死亡病例是多少",
+        "id": 94
+    },
+    {
+        "domain": "virusSearch",
+        "text": "疫情最近死亡多少人",
+        "id": 95
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在那个新型病毒肺炎感染人数多少了",
+        "id": 96
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新型冠状病毒感染的人数有多少了",
+        "id": 97
+    },
+    {
+        "domain": "virusSearch",
+        "text": "最新肺炎人数是多少",
+        "id": 98
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新增疫情人数",
+        "id": 99
+    },
+    {
+        "domain": "virusSearch",
+        "text": "冠状性肺炎一共有多少病例了",
+        "id": 100
+    },
+    {
+        "domain": "virusSearch",
+        "text": "搜一搜新型肺炎病例有多少",
+        "id": 101
+    },
+    {
+        "domain": "virusSearch",
+        "text": "湖北省新增新型冠状病毒感染的肺炎病例",
+        "id": 102
+    },
+    {
+        "domain": "virusSearch",
+        "text": "广东新冠肺炎情况",
+        "id": 103
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国有多少新增疑似人数",
+        "id": 104
+    },
+    {
+        "domain": "virusSearch",
+        "text": "二月八号湖北治愈了多少",
+        "id": 105
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今日蚌埠治愈了多少人",
+        "id": 106
+    },
+    {
+        "domain": "virusSearch",
+        "text": "直到2月8号为止全国范围有多少的死亡",
+        "id": 107
+    },
+    {
+        "domain": "virusSearch",
+        "text": "截止二月八号为止黑龙江地区有多少的死亡的人",
+        "id": 108
+    },
+    {
+        "domain": "virusSearch",
+        "text": "到今天为止浙江这块有多少数量的新增确诊的病患",
+        "id": 109
+    },
+    {
+        "domain": "virusSearch",
+        "text": "北京今天有多少疑似人数",
+        "id": 110
+    },
+    {
+        "domain": "virusSearch",
+        "text": "看一下全国今天的确诊人数",
+        "id": 111
+    },
+    {
+        "domain": "virusSearch",
+        "text": "2月14日广东治愈多少",
+        "id": 112
+    },
+    {
+        "domain": "virusSearch",
+        "text": "武汉市今天确诊了多少新冠病毒肺炎病例",
+        "id": 113
+    },
+    {
+        "domain": "virusSearch",
+        "text": "武汉肺炎现在确诊多少例",
+        "id": 114
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国确诊新型冠状病毒多少例",
+        "id": 115
+    },
+    {
+        "domain": "virusSearch",
+        "text": "中国冠状病毒现在确诊多少例了",
+        "id": 116
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在肺炎全国确诊人数有多少呀",
+        "id": 117
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国新冠病毒确诊多少例",
+        "id": 118
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在湖北的一行有多少人治愈了",
+        "id": 119
+    },
+    {
+        "domain": "virusSearch",
+        "text": "全国新型冠状病毒今天死亡多少人",
+        "id": 120
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国病毒死亡人数是多少",
+        "id": 121
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国有多少新增重症人数",
+        "id": 122
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天全国多少轻症",
+        "id": 123
+    },
+    {
+        "domain": "virusSearch",
+        "text": "全国现在累计疑似的",
+        "id": 124
+    },
+    {
+        "domain": "virusSearch",
+        "text": "全国现在现存疑似的",
+        "id": 125
+    }
+]

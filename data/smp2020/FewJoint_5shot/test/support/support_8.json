@@ -1,0 +1,265 @@
+[
+    {
+        "domain": "chineseZodiac",
+        "text": "给我说下属鸡的事业发展怎么样",
+        "intent": "FATE_QUERY",
+        "slots": {
+            "category": "事业",
+            "name": "鸡"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "属猪的和什么生肖比较配呢",
+        "intent": "MATCH_QUERY",
+        "slots": {
+            "name": "猪"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "说下属狗的运气好吗",
+        "intent": "FATE_QUERY",
+        "slots": {
+            "category": "运气",
+            "name": "狗"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "给我分析一下十二生肖的运势",
+        "intent": "FATE_QUERY",
+        "slots": {
+            "category": "运势"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "我想知道十二生肖的爱情运势",
+        "intent": "FATE_QUERY",
+        "slots": {
+            "category": "爱情运势"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "属猪的有1995年的吗",
+        "intent": "QUERY",
+        "slots": {
+            "name": "猪"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "属龙的吉祥数字是多少",
+        "intent": "QUERY",
+        "slots": {
+            "category": "吉祥数字",
+            "name": "龙"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "属猪的男生适合找什么生肖女生",
+        "intent": "MATCH_QUERY",
+        "slots": {
+            "male": "猪"
+        }
+    },
+	{
+    "domain": "chineseZodiac",
+    "text": "哪一个生肖排第一啊",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "order": "一"
+    }
+  },
+	{
+    "domain": "chineseZodiac",
+    "text": "第一名的生肖是什么",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "order": "一"
+    }
+  },
+    {
+        "domain": "chineseZodiac",
+        "text": "排第五的生肖是什么",
+        "intent": "ORDER_QUERY",
+        "slots": {
+            "order": "五"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "九五年是属什么的",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "九五年"
+        }
+    },
+	{
+    "domain": "chineseZodiac",
+    "text": "今年出生的是什么生肖",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "今年"
+    }
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "和我说下1995年出生的是什么生肖",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "1995年"
+    }
+  },
+    {
+        "domain": "chineseZodiac",
+        "text": "最后一个生肖是什么",
+        "intent": "ORDER_QUERY",
+        "slots": {
+            "order": "最后一个"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "2015年出生的生肖有什么讲究",
+        "intent": "FATE_QUERY",
+        "slots": {
+            "datetime_date": "2015年"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "属老虎的男生和属兔子的女生配对",
+        "intent": "COUPLE_QUERY",
+        "slots": {
+            "female": "兔子",
+            "male": "老虎"
+        }
+    },
+	{
+    "domain": "chineseZodiac",
+    "text": "猴先生和狗太太的运势",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "狗",
+      "male": "猴"
+    }
+  },
+	{
+    "domain": "chineseZodiac",
+    "text": "属狗的男生可以找属狗的女生吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "狗",
+      "male": "狗"
+    }
+  },
+    {
+        "domain": "chineseZodiac",
+        "text": "十二生肖第八个是哪个",
+        "intent": "ORDER_QUERY",
+        "slots": {
+            "order": "八"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "属虎的和属牛的是不是不能配对",
+        "intent": "COUPLE_QUERY",
+        "slots": {
+            "name": [
+                "虎",
+                "牛"
+            ]
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "属牛的女生和属什么的配对比较合适",
+        "intent": "MATCH_QUERY",
+        "slots": {
+            "female": "牛"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "给我说下属兔的女生是什么类型的",
+        "intent": "QUERY",
+        "slots": {
+            "name": "兔"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "属兔的人适合找什么对象",
+        "intent": "MATCH_QUERY",
+        "slots": {
+            "name": "兔"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "属猴的男生和属狗的女生怎么配的",
+        "intent": "COUPLE_QUERY",
+        "slots": {
+            "female": "狗",
+            "male": "猴"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "狗和猪可以配对吗",
+        "intent": "COUPLE_QUERY",
+        "slots": {
+            "name": [
+                "猪",
+                "狗"
+            ]
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "龙和哪个生肖比较配",
+        "intent": "MATCH_QUERY",
+        "slots": {
+            "name": "龙"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "狗过后是什么生肖",
+        "intent": "ORDER_QUERY",
+        "slots": {
+            "name": "狗"
+        }
+    },
+	{
+        "domain": "chineseZodiac",
+        "text": "猪的后面是什么生肖",
+        "intent": "ORDER_QUERY",
+        "slots": {
+            "name": "猪"
+        }
+    },
+	
+    {
+        "domain": "chineseZodiac",
+        "text": "生肖蛇的女生和生肖兔的男生的配对",
+        "intent": "COUPLE_QUERY",
+        "slots": {
+            "female": "蛇",
+            "male": "兔"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "1991年出生的人属什么",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "1991年"
+        }
+    }
+]

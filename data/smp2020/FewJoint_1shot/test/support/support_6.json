@@ -1,0 +1,30 @@
+[
+    {
+        "domain": "length",
+        "text": "1000微米等于1纳米吗",
+        "intent": "length",
+        "slots": {
+            "srcLengthNumber": "1000",
+            "srcLengthUnit": "微米",
+            "destLengthUnit": "纳米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "千米约是多少分米",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "千米",
+            "destLengthUnit": "分米"
+        }
+    },
+    {
+        "domain": "length",
+        "text": "分米和毫米之前怎么换算呀",
+        "intent": "cov_length",
+        "slots": {
+            "srcLengthUnit": "分米",
+            "destLengthUnit": "毫米"
+        }
+    }
+]

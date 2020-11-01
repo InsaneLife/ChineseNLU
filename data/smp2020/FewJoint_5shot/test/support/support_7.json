@@ -1,0 +1,251 @@
+[
+    {
+        "domain": "story",
+        "text": "想听故事",
+        "intent": "RANDOM_QUERY",
+        "slots": {}
+    },
+	{
+        "domain": "story",
+        "text": "讲个故事吧",
+        "intent": "RANDOM_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "听一听故事",
+        "intent": "RANDOM_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "听一下故事",
+        "intent": "RANDOM_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "播放巴金的故事",
+        "intent": "QUERY",
+        "slots": {
+            "author": "巴金"
+        }
+    },
+    {
+        "domain": "story",
+        "text": "给我们推荐故事",
+        "intent": "RANDOM_QUERY",
+        "slots": {}
+    },
+	{
+    "domain": "story",
+    "text": "儿童故事快乐可可狮",
+    "intent": "QUERY",
+    "slots": {
+      "category": "儿童",
+      "name": "快乐可可狮"
+    }
+  },
+	{
+    "domain": "story",
+    "text": "小猪佩奇有没有",
+    "intent": "QUERY",
+    "slots": {
+      "name": "小猪佩奇"
+    }
+  },
+	{
+    "domain": "story",
+    "text": "金波爷爷的故事",
+    "intent": "QUERY",
+    "slots": {
+      "author": "金波爷爷"
+    }
+  },
+    {
+        "domain": "story",
+        "text": "想去听听普罗米修斯",
+        "intent": "QUERY",
+        "slots": {
+            "name": "普罗米修斯"
+        }
+    },
+	{
+    "domain": "story",
+    "text": "搜索安徒生的童话故事",
+    "intent": "QUERY",
+    "slots": {
+      "author": "安徒生",
+      "category": "童话"
+    }
+  },
+    {
+        "domain": "story",
+        "text": "听苑爸爸讲英语故事",
+        "intent": "QUERY",
+        "slots": {
+            "author": "苑爸爸",
+            "category": "英语"
+        }
+    },
+	{
+    "domain": "story",
+    "text": "搜索爱情故事",
+    "intent": "QUERY",
+    "slots": {
+      "category": "爱情"
+    }
+  },
+    {
+        "domain": "story",
+        "text": "小孩子喜欢听什么故事啊",
+        "intent": "RANDOM_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "寓言故事乌鸦喝水给我来一段",
+        "intent": "QUERY",
+        "slots": {
+            "category": "寓言",
+            "name": "乌鸦喝水"
+        }
+    },
+    {
+        "domain": "story",
+        "text": "有没有缓解氛围的故事来一点",
+        "intent": "QUERY",
+        "slots": {
+            "category": "缓解氛围"
+        }
+    },
+    {
+        "domain": "story",
+        "text": "给我查一下周树人的与鸭子有关的故事有哪些",
+        "intent": "QUERY",
+        "slots": {
+            "author": "周树人",
+            "name": "鸭子"
+        }
+    },
+    {
+        "domain": "story",
+        "text": "上一个",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "切换下一个故事",
+        "intent": "NEXT",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "他还写过别的故事吗",
+        "intent": "OTHERS",
+        "slots": {}
+    },
+	{
+        "domain": "story",
+        "text": "下一个",
+        "intent": "NEXT",
+        "slots": {}
+    },
+	{
+        "domain": "story",
+        "text": "换下一个故事",
+        "intent": "NEXT",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "重讲一遍",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "我想听下一集故事",
+        "intent": "NEXT",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "换下一个",
+        "intent": "NEXT",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "上一个故事",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "我想听上一集故事",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+	{
+        "domain": "story",
+        "text": "我想听上一个故事",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+	{
+        "domain": "story",
+        "text": "上一集",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "还有其他的吗",
+        "intent": "OTHERS",
+        "slots": {}
+    },
+	{
+        "domain": "story",
+        "text": "有没有其他的故事",
+        "intent": "OTHERS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "我要听其他的故事",
+        "intent": "OTHERS",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "没有其他故事了吗",
+        "intent": "OTHERS",
+        "slots": {}
+    },
+	{
+        "domain": "story",
+        "text": "再讲一下",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "重新再说一下吧",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "再讲一遍",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "story",
+        "text": "重复说下",
+        "intent": "REPLAY",
+        "slots": {}
+    }
+]

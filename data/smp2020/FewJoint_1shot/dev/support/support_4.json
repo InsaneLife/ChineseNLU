@@ -1,0 +1,71 @@
+[
+    {
+        "domain": "garbageClassify",
+        "text": "去扔馊馒头",
+        "intent": "BELONG_QUERY",
+        "slots": {
+            "housefood": "馊馒头"
+        }
+    },
+    {
+        "domain": "garbageClassify",
+        "text": "干垃圾有哪些",
+        "intent": "EXAMPLE_QUERY",
+        "slots": {
+            "garbageKind": "干垃圾"
+        }
+    },
+    {
+        "domain": "garbageClassify",
+        "text": "木屑是可回收物吗",
+        "intent": "BELONG_QUERY",
+        "slots": {
+            "residual": "木屑"
+        }
+    },
+    {
+        "domain": "garbageClassify",
+        "text": "垃圾分类",
+        "intent": "KIND_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "garbageClassify",
+        "text": "不可回收垃圾怎么分类",
+        "intent": "KIND_QUERY",
+        "slots": {
+            "match": "不可回收"
+        }
+    },
+    {
+        "domain": "garbageClassify",
+        "text": "我想扔其他垃圾",
+        "intent": "NO_FOCUS_QUERY",
+        "slots": {
+            "match": "其他"
+        }
+    },
+    {
+        "domain": "garbageClassify",
+        "text": "干垃圾怎么定义",
+        "intent": "KIND_DEFINITION_QUERY",
+        "slots": {
+            "garbageKind": "干垃圾"
+        }
+    },
+
+    {
+        "domain": "garbageClassify",
+        "text": "垃圾分类城市名单",
+        "intent": "CITY_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "garbageClassify",
+        "text": "合肥要垃圾分类吗",
+        "intent": "CITY_QUERY",
+        "slots": {
+            "city": "合肥"
+        }
+    }
+]

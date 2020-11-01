@@ -1,0 +1,173 @@
+[
+    {
+        "domain": "joke",
+        "text": "来一个网上流行的笑话",
+        "intent": "QUERY",
+        "slots": {
+            "category": "流行"
+        }
+    },
+    {
+        "domain": "joke",
+        "text": "说一个赵本山的笑话",
+        "intent": "QUERY",
+        "slots": {
+            "category": "赵本山"
+        }
+    },
+    {
+        "domain": "joke",
+        "text": "讲个小沈阳的笑话给我听听",
+        "intent": "QUERY",
+        "slots": {
+            "category": "小沈阳"
+        }
+    },
+	{
+    "domain": "joke",
+    "text": "校园笑话",
+    "intent": "QUERY",
+    "slots": {
+      "category": "校园笑话"
+    }
+  },
+	{
+    "domain": "joke",
+    "text": "有关于灰太狼的笑话吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "灰太狼"
+    }
+  },
+    {
+        "domain": "joke",
+        "text": "开心一刻里面的段子来一个",
+        "intent": "QUERY",
+        "slots": {
+            "album": "开心一刻"
+        }
+    },
+	{
+        "domain": "joke",
+        "text": "开心一刻里面的段子给我讲一个",
+        "intent": "QUERY",
+        "slots": {
+            "album": "开心一刻"
+        }
+    },
+	{
+        "domain": "joke",
+        "text": "开心一刻里面有没有段子",
+        "intent": "QUERY",
+        "slots": {
+            "album": "开心一刻"
+        }
+    },
+    {
+        "domain": "joke",
+        "text": "我想听开心一刻里面的段子",
+        "intent": "QUERY",
+        "slots": {
+            "album": "开心一刻"
+        }
+    },
+    {
+        "domain": "joke",
+        "text": "开心一刻里面的笑话给我说一个",
+        "intent": "QUERY",
+        "slots": {
+            "album": "开心一刻"
+        }
+    },
+    {
+        "domain": "joke",
+        "text": "停止笑话",
+        "intent": "EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "关闭笑话",
+        "intent": "EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "笑话退出",
+        "intent": "EXIT",
+        "slots": {}
+    },
+	{
+        "domain": "joke",
+        "text": "退出吧",
+        "intent": "EXIT",
+        "slots": {}
+    },
+	{
+        "domain": "joke",
+        "text": "把笑话关了",
+        "intent": "EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "上一集笑话",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "换上一集笑话",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "我想看上一集笑话",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "切换成上一个",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+	{
+        "domain": "joke",
+        "text": "上一个笑话给我放",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "重新讲一下",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "重新讲一次",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "重复一下",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "能再说一次吗",
+        "intent": "REPLAY",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "再讲一下吧",
+        "intent": "REPLAY",
+        "slots": {}
+    }
+	
+]

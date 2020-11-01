@@ -1,0 +1,61 @@
+[
+    {
+        "domain": "chineseZodiac",
+        "text": "给我说下属鸡的事业发展怎么样",
+        "intent": "FATE_QUERY",
+        "slots": {
+            "category": "事业",
+            "name": "鸡"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "我想知道十二生肖的爱情运势",
+        "intent": "FATE_QUERY",
+        "slots": {
+            "category": "爱情运势"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "属龙的吉祥数字是多少",
+        "intent": "QUERY",
+        "slots": {
+            "category": "吉祥数字",
+            "name": "龙"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "属猪的男生适合找什么生肖女生",
+        "intent": "MATCH_QUERY",
+        "slots": {
+            "male": "猪"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "排第五的生肖是什么",
+        "intent": "ORDER_QUERY",
+        "slots": {
+            "order": "五"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "最后一个生肖是什么",
+        "intent": "ORDER_QUERY",
+        "slots": {
+            "order": "最后一个"
+        }
+    },
+    {
+        "domain": "chineseZodiac",
+        "text": "生肖蛇的女生和生肖兔的男生的配对",
+        "intent": "COUPLE_QUERY",
+        "slots": {
+            "female": "蛇",
+            "male": "兔"
+        }
+    }
+]

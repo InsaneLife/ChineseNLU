@@ -1,0 +1,36 @@
+[
+    {
+        "domain": "joke",
+        "text": "开心一刻里面的段子来一个",
+        "intent": "QUERY",
+        "slots": {
+            "album": "开心一刻"
+        }
+    },
+    {
+        "domain": "joke",
+        "text": "停止笑话",
+        "intent": "EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "关闭笑话",
+        "intent": "EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "joke",
+        "text": "上一集笑话",
+        "intent": "PREVIOUS",
+        "slots": {}
+    },
+    
+    {
+        "domain": "joke",
+        "text": "重新讲一下",
+        "intent": "REPLAY",
+        "slots": {}
+    }
+
+]

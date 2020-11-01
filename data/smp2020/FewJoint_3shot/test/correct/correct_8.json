@@ -1,0 +1,1041 @@
+[
+  {
+    "domain": "chineseZodiac",
+    "text": "今年出生的是什么生肖",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "今年"
+    },
+    "id": 0
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "和我说下1995年出生的是什么生肖",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "1995年"
+    },
+    "id": 1
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "我想知道哪年出生的是属猪的",
+    "intent": "QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 2
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "说下属狗的运气好吗",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "运气",
+      "name": "狗"
+    },
+    "id": 3
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "我想了解一下属狗的有什么性格特点",
+    "intent": "QUERY",
+    "slots": {
+      "category": "性格特点",
+      "name": "狗"
+    },
+    "id": 4
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "具体给我分析一下属狗的人",
+    "intent": "QUERY",
+    "slots": {
+      "name": "狗"
+    },
+    "id": 5
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "给我说下属猪的和属狗的配吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "狗",
+        "猪"
+      ]
+    },
+    "id": 6
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "给我分析一下十二生肖的运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "运势"
+    },
+    "id": 7
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属狗的男生和属鸡的女生配吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "鸡",
+      "male": "狗"
+    },
+    "id": 8
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属鼠的男生和属狗的女生在一起合适吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "狗",
+      "male": "鼠"
+    },
+    "id": 9
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖是蛇的爱情运势如何",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "爱情",
+      "name": "蛇"
+    },
+    "id": 10
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "说下生肖属蛇的爱情运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "爱情",
+      "name": "蛇"
+    },
+    "id": 11
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖蛇的和什么生肖的比较适合",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "蛇"
+    },
+    "id": 12
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "给我说下属兔的女生是什么类型的",
+    "intent": "QUERY",
+    "slots": {
+      "name": "兔"
+    },
+    "id": 13
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "报下属狗的总体运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "运势",
+      "name": "狗"
+    },
+    "id": 16
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属狗的下面是什么生肖",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "狗"
+    },
+    "id": 17
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的生肖排多少",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 18
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "第一名的生肖是什么",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "order": "一"
+    },
+    "id": 19
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "我想知道属猪的排最后吗",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 20
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "给我说下属猪的和什么属相最般配",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 21
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属狗的男生可以找属狗的女生吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "狗",
+      "male": "狗"
+    },
+    "id": 22
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "具体和我说说属狗的运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "运势",
+      "name": "狗"
+    },
+    "id": 23
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的有1995年的吗",
+    "intent": "QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 25
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的下面一个生肖是什么",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 26
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属鼠的是哪年出生的",
+    "intent": "QUERY",
+    "slots": {
+      "name": "鼠"
+    },
+    "id": 27
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "十二生肖中鼠的后面是什么",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "鼠"
+    },
+    "id": 28
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "十二生肖中兔排在狗前面吗",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": [
+        "兔",
+        "狗"
+      ]
+    },
+    "id": 29
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "你知道明年是属什么的吗",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "明年"
+    },
+    "id": 30
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "明年是猪年了吧",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "明年"
+    },
+    "id": 31
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "哪一个生肖排第一啊",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "order": "一"
+    },
+    "id": 32
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "鼠前面是哪一个生肖",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "鼠"
+    },
+    "id": 33
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "老鼠前面是哪一个生肖",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "鼠"
+    },
+    "id": 34
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "兔子是第几个生肖",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "兔"
+    },
+    "id": 35
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "羊年的运势如何",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "运势",
+      "name": "羊"
+    },
+    "id": 36
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属兔的人适合找什么对象",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "兔"
+    },
+    "id": 37
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "虎年的运势是怎样的",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "运势",
+      "name": "虎"
+    },
+    "id": 38
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属虎的人和什么生肖最配",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "虎"
+    },
+    "id": 39
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的人是什么样的性格呢",
+    "intent": "QUERY",
+    "slots": {
+      "category": "性格",
+      "name": "猪"
+    },
+    "id": 40
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的和什么生肖比较配呢",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 41
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猴的男生和属狗的女生怎么配的",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "狗",
+      "male": "猴"
+    },
+    "id": 42
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "狗和猪可以配对吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "猪",
+        "狗"
+      ]
+    },
+    "id": 43
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猴的今年的运势怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "运势",
+      "name": "猴"
+    },
+    "id": 45
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "猴先生和狗太太婚姻生活幸福吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "狗",
+      "male": "猴"
+    },
+    "id": 47
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属狗的女士和属猪的女孩他们能和睦相处吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "猪",
+      "male": "狗"
+    },
+    "id": 48
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属兔的和属虎的相配吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "兔",
+        "虎"
+      ]
+    },
+    "id": 49
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属相蛇和属相猴",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "蛇",
+        "猴"
+      ]
+    },
+    "id": 50
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属牛的年份",
+    "intent": "QUERY",
+    "slots": {
+      "name": "牛"
+    },
+    "id": 51
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属兔的和什么比较般配",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "兔"
+    },
+    "id": 52
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "老鼠和牛关系怎么样",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "老鼠",
+        "牛"
+      ]
+    },
+    "id": 53
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属老鼠的和属牛的关系怎么样",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "老鼠",
+        "牛"
+      ]
+    },
+    "id": 54
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属狗的爱情运势怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "爱情",
+      "name": "狗"
+    },
+    "id": 55
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属马的2018年怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "2018",
+      "name": "马"
+    },
+    "id": 56
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属虎和属兔的配对怎么样",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "虎",
+        "兔"
+      ]
+    },
+    "id": 57
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属兔的和属猪的配对指数是多少",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "兔",
+        "猪"
+      ]
+    },
+    "id": 58
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属兔的2018年桃花运势如何",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "2018",
+      "category": "桃花运势",
+      "name": "兔"
+    },
+    "id": 59
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "2018属兔的比属猪的运势要好吗",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "2018",
+      "category": "运势",
+      "name": [
+        "兔",
+        "猪"
+      ]
+    },
+    "id": 60
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖老鼠的性格是什么",
+    "intent": "QUERY",
+    "slots": {
+      "category": "性格",
+      "name": "老鼠"
+    },
+    "id": 61
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属鼠的和属马配吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "鼠",
+        "马"
+      ]
+    },
+    "id": 62
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属马的男生和属鼠的女生配对",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "鼠",
+      "male": "马"
+    },
+    "id": 63
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "最近的狗年是哪一年",
+    "intent": "QUERY",
+    "slots": {
+      "name": "狗"
+    },
+    "id": 64
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属牛的可以和什么生肖配对",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "牛"
+    },
+    "id": 65
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "和属羊最配的是哪个生肖",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "羊"
+    },
+    "id": 66
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "猪的后面是什么生肖",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 67
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "今年马的运势怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "category": "运势",
+      "name": "马"
+    },
+    "id": 68
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "狗过后是什么生肖",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "狗"
+    },
+    "id": 69
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属虎的和属羊的相配吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "虎",
+        "羊"
+      ]
+    },
+    "id": 70
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "鼠后面是什么",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "鼠"
+    },
+    "id": 71
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "牛年之后是什么年",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "牛"
+    },
+    "id": 72
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属兔的脾气怎么样",
+    "intent": "QUERY",
+    "slots": {
+      "category": "脾气",
+      "name": "兔"
+    },
+    "id": 73
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属马的今年的财运如何",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "category": "财运",
+      "name": "马"
+    },
+    "id": 74
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖马的速配生肖",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "马"
+    },
+    "id": 75
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的今年是本命年吗",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "name": "猪"
+    },
+    "id": 76
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "我想知道属猪的今年的财运",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "category": "财运",
+      "name": "猪"
+    },
+    "id": 77
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "猴年的上一年是什么年",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "datetime_date": "上一年",
+      "name": "猴"
+    },
+    "id": 78
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "猴年的下一年是什么年",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "datetime_date": "下一年",
+      "name": "猴"
+    },
+    "id": 79
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猴的今年的运势是什么",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "category": "运势",
+      "name": "猴"
+    },
+    "id": 80
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猴的跟什么相配",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "猴"
+    },
+    "id": 81
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的今年运势哪些比较好",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "category": "运势",
+      "name": "猪"
+    },
+    "id": 82
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖鼠与生肖猪的配对如何",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "鼠",
+        "猪"
+      ]
+    },
+    "id": 83
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "鼠年后面是哪一个生肖",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "鼠"
+    },
+    "id": 84
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "羊年的前一年是哪一年？",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "datetime_date": "前一年",
+      "name": "羊"
+    },
+    "id": 85
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "牛年的前一年是什么年？",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "datetime_date": "前一年",
+      "name": "牛"
+    },
+    "id": 86
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖为牛的人今年运势怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "category": "运势",
+      "name": "牛"
+    },
+    "id": 87
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属蛇的人和哪一个生肖比较配",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "蛇"
+    },
+    "id": 88
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属马的和属猴的是不是不适合在一起",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "马",
+        "猴"
+      ]
+    },
+    "id": 89
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属羊的女生和属猪的男生配对合适吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "羊",
+      "male": "猪"
+    },
+    "id": 90
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的女生适合配对的属相",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "female": "猪"
+    },
+    "id": 91
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的桃花运怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "桃花运",
+      "name": "猪"
+    },
+    "id": 92
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖猴的男生和生肖狗的女生配对吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "female": "狗",
+      "male": "猴"
+    },
+    "id": 93
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属狗的宜配哪些属相",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "狗"
+    },
+    "id": 94
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "替我查询哪一年出生的属牛",
+    "intent": "QUERY",
+    "slots": {
+      "name": "牛"
+    },
+    "id": 95
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "请问一下与九七年相对应的属相是啥",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "九七年"
+    },
+    "id": 96
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "92年出生的是什么属相",
+    "intent": "QUERY",
+    "slots": {
+      "datetime_date": "92年"
+    },
+    "id": 97
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖猪是排在生肖鼠前面吗",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": [
+        "鼠",
+        "猪"
+      ]
+    },
+    "id": 98
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的人今年的健康运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "category": "健康运势",
+      "name": "猪"
+    },
+    "id": 99
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的人幸运花是什么",
+    "intent": "QUERY",
+    "slots": {
+      "category": "幸运花",
+      "name": "猪"
+    },
+    "id": 100
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖虎的本命佛是什么",
+    "intent": "QUERY",
+    "slots": {
+      "category": "本命佛",
+      "name": "虎"
+    },
+    "id": 101
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "羊后面的生肖有哪些",
+    "intent": "ORDER_QUERY",
+    "slots": {
+      "name": "羊"
+    },
+    "id": 102
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "查一下生肖运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "生肖运势"
+    },
+    "id": 103
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖猪最配的生肖是哪个",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 104
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "和生肖鼠最配的生肖是属什么",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "鼠"
+    },
+    "id": 105
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "属猪的人的配对生肖",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "猪"
+    },
+    "id": 106
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖马的忌配",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "马"
+    },
+    "id": 107
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "生肖马的宜配",
+    "intent": "MATCH_QUERY",
+    "slots": {
+      "name": "马"
+    },
+    "id": 108
+  },
+  {
+    "domain": "chineseZodiac",
+    "text": "查询生肖运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "category": "生肖运势"
+    },
+    "id": 109
+  }
+]

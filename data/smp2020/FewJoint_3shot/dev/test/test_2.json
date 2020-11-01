@@ -1,0 +1,647 @@
+[
+    {
+        "domain": "joke",
+        "text": "来一个网上流行的笑话",
+        "id": 100
+    },
+    {
+        "domain": "joke",
+        "text": "说一个赵本山的笑话",
+        "id": 101
+    },
+    {
+        "domain": "joke",
+        "text": "讲个小沈阳的笑话给我听听",
+        "id": 102
+    },
+    {
+        "domain": "joke",
+        "text": "开心一刻里面的段子来一个",
+        "id": 103
+    },
+    {
+        "domain": "joke",
+        "text": "有没有关于学习的笑话来一个",
+        "id": 104
+    },
+    {
+        "domain": "joke",
+        "text": "能讲个笑话吗",
+        "id": 105
+    },
+    {
+        "domain": "joke",
+        "text": "给我讲个笑话吧",
+        "id": 106
+    },
+    {
+        "domain": "joke",
+        "text": "有什么笑话最搞笑",
+        "id": 107
+    },
+    {
+        "domain": "joke",
+        "text": "有关于灰太狼的笑话吗",
+        "id": 108
+    },
+    {
+        "domain": "joke",
+        "text": "校园笑话",
+        "id": 109
+    },
+    {
+        "domain": "joke",
+        "text": "讲个笑话让我们开心一下",
+        "id": 110
+    },
+    {
+        "domain": "joke",
+        "text": "给我讲一个关于某个明星的笑话",
+        "id": 111
+    },
+    {
+        "domain": "joke",
+        "text": "有关于老虎的笑话有没有",
+        "id": 112
+    },
+    {
+        "domain": "joke",
+        "text": "我想听关于理发的笑话",
+        "id": 113
+    },
+    {
+        "domain": "joke",
+        "text": "女生爱听什么类型的笑话",
+        "id": 114
+    },
+    {
+        "domain": "joke",
+        "text": "人们一般喜欢什么类型的笑话",
+        "id": 115
+    },
+    {
+        "domain": "joke",
+        "text": "开心一刻里面的段子给我讲一个",
+        "id": 116
+    },
+    {
+        "domain": "joke",
+        "text": "从笑话大全里面随便来一则吧",
+        "id": 117
+    },
+    {
+        "domain": "joke",
+        "text": "搜一搜笑话",
+        "id": 118
+    },
+    {
+        "domain": "joke",
+        "text": "给我来一个搞笑的笑话",
+        "id": 119
+    },
+    {
+        "domain": "joke",
+        "text": "我想听一个和校园生活有关的笑话",
+        "id": 120
+    },
+    {
+        "domain": "joke",
+        "text": "有没有什么经典的笑话",
+        "id": 121
+    },
+    {
+        "domain": "joke",
+        "text": "我要听关于动物的笑话",
+        "id": 122
+    },
+    {
+        "domain": "joke",
+        "text": "最近有什么好玩的笑话",
+        "id": 123
+    },
+    {
+        "domain": "joke",
+        "text": "能给我讲个古代的笑话吗",
+        "id": 124
+    },
+    {
+        "domain": "joke",
+        "text": "来讲一个笑话",
+        "id": 125
+    },
+    {
+        "domain": "joke",
+        "text": "你会讲什么笑话呢",
+        "id": 126
+    },
+    {
+        "domain": "joke",
+        "text": "关于动漫人物的笑话",
+        "id": 127
+    },
+    {
+        "domain": "joke",
+        "text": "你讲的段子好笑吗",
+        "id": 128
+    },
+    {
+        "domain": "joke",
+        "text": "我想听百科笑话",
+        "id": 129
+    },
+    {
+        "domain": "joke",
+        "text": "有其他种类的笑话吗",
+        "id": 130
+    },
+    {
+        "domain": "joke",
+        "text": "有没有段子讲一个吧",
+        "id": 131
+    },
+    {
+        "domain": "joke",
+        "text": "排行榜比较靠前的笑话有吗",
+        "id": 132
+    },
+    {
+        "domain": "joke",
+        "text": "您可以给我讲一个关于动物的笑话",
+        "id": 133
+    },
+    {
+        "domain": "joke",
+        "text": "我不听笑话我要听冷笑话",
+        "id": 134
+    },
+    {
+        "domain": "joke",
+        "text": "给宝宝说个笑话吧",
+        "id": 135
+    },
+    {
+        "domain": "joke",
+        "text": "你可以讲一个关于小明的笑话吗",
+        "id": 136
+    },
+    {
+        "domain": "joke",
+        "text": "给我来一个内涵段子里面的笑话",
+        "id": 137
+    },
+    {
+        "domain": "joke",
+        "text": "有没有关于熊大熊二的的段子",
+        "id": 138
+    },
+    {
+        "domain": "joke",
+        "text": "我想听关于程序员的笑话",
+        "id": 139
+    },
+    {
+        "domain": "joke",
+        "text": "我要听有关学生类型的笑话",
+        "id": 140
+    },
+    {
+        "domain": "joke",
+        "text": "讲一个黑色幽默的笑话",
+        "id": 141
+    },
+    {
+        "domain": "joke",
+        "text": "有没有什么冷笑话",
+        "id": 142
+    },
+    {
+        "domain": "joke",
+        "text": "随便说一个笑话",
+        "id": 143
+    },
+    {
+        "domain": "joke",
+        "text": "说一个关于借钱的笑话吧",
+        "id": 144
+    },
+    {
+        "domain": "joke",
+        "text": "讲个笑话让我开心一下",
+        "id": 145
+    },
+    {
+        "domain": "joke",
+        "text": "再讲一个古代的笑话吧",
+        "id": 146
+    },
+    {
+        "domain": "joke",
+        "text": "讲个笑话给我听听",
+        "id": 147
+    },
+    {
+        "domain": "joke",
+        "text": "请讲一个关于水果的笑话",
+        "id": 148
+    },
+    {
+        "domain": "joke",
+        "text": "东北人有什么笑话",
+        "id": 149
+    },
+    {
+        "domain": "joke",
+        "text": "开心一刻里面有没有段子",
+        "id": 150
+    },
+    {
+        "domain": "joke",
+        "text": "我今天好累啊你给我说个笑话呗",
+        "id": 151
+    },
+    {
+        "domain": "joke",
+        "text": "跟我讲一个关于动物的笑话",
+        "id": 152
+    },
+    {
+        "domain": "joke",
+        "text": "听一首笑话大王",
+        "id": 153
+    },
+    {
+        "domain": "joke",
+        "text": "你会说笑话吗",
+        "id": 154
+    },
+    {
+        "domain": "joke",
+        "text": "放一个更好听的笑话",
+        "id": 155
+    },
+    {
+        "domain": "joke",
+        "text": "你再给我讲一个笑话呗",
+        "id": 156
+    },
+    {
+        "domain": "joke",
+        "text": "有关食品食物的笑话",
+        "id": 157
+    },
+    {
+        "domain": "joke",
+        "text": "来个好笑的笑话",
+        "id": 158
+    },
+    {
+        "domain": "joke",
+        "text": "来个关于大师的笑话",
+        "id": 159
+    },
+    {
+        "domain": "joke",
+        "text": "你给我来一个开心一刻里面的笑话吧",
+        "id": 160
+    },
+    {
+        "domain": "joke",
+        "text": "没有冷笑话吗",
+        "id": 161
+    },
+    {
+        "domain": "joke",
+        "text": "开心一刻里面有啥好玩的笑话",
+        "id": 162
+    },
+    {
+        "domain": "joke",
+        "text": "讲一个搞笑的段子",
+        "id": 163
+    },
+    {
+        "domain": "joke",
+        "text": "给我搜索搞笑的段子",
+        "id": 164
+    },
+    {
+        "domain": "joke",
+        "text": "查一查搞笑的段子",
+        "id": 165
+    },
+    {
+        "domain": "joke",
+        "text": "给我讲波波有理里面的笑话",
+        "id": 166
+    },
+    {
+        "domain": "joke",
+        "text": "讲个搞笑的笑话来听听",
+        "id": 167
+    },
+    {
+        "domain": "joke",
+        "text": "你给我讲讲笑话吧",
+        "id": 168
+    },
+    {
+        "domain": "joke",
+        "text": "我想听开心一刻里面的段子",
+        "id": 169
+    },
+    {
+        "domain": "joke",
+        "text": "查找搞笑段子",
+        "id": 170
+    },
+    {
+        "domain": "joke",
+        "text": "开心一刻里面的笑话给我说一个",
+        "id": 171
+    },
+    {
+        "domain": "joke",
+        "text": "说个幽默笑话",
+        "id": 172
+    },
+    {
+        "domain": "joke",
+        "text": "搞笑的儿童笑话",
+        "id": 173
+    },
+    {
+        "domain": "joke",
+        "text": "说个笑话来听听看",
+        "id": 174
+    },
+    {
+        "domain": "joke",
+        "text": "想听笑话了",
+        "id": 175
+    },
+    {
+        "domain": "joke",
+        "text": "我来选儿童笑话",
+        "id": 176
+    },
+    {
+        "domain": "joke",
+        "text": "讲个笑话给哥听听",
+        "id": 177
+    },
+    {
+        "domain": "joke",
+        "text": "班级笑话说一个",
+        "id": 178
+    },
+    {
+        "domain": "joke",
+        "text": "伤心了还是听笑话吧",
+        "id": 179
+    },
+    {
+        "domain": "joke",
+        "text": "再来个校园笑话",
+        "id": 180
+    },
+    {
+        "domain": "joke",
+        "text": "说个职场笑话来听听吧",
+        "id": 181
+    },
+    {
+        "domain": "joke",
+        "text": "你说个哲理笑话吧",
+        "id": 182
+    },
+    {
+        "domain": "joke",
+        "text": "你有关于周杰伦的笑话吗",
+        "id": 183
+    },
+    {
+        "domain": "joke",
+        "text": "愚人笑话好笑",
+        "id": 184
+    },
+    {
+        "domain": "joke",
+        "text": "关于兔子的笑话",
+        "id": 185
+    },
+    {
+        "domain": "joke",
+        "text": "下一个家庭笑话",
+        "id": 186
+    },
+    {
+        "domain": "joke",
+        "text": "精选一个职场笑话",
+        "id": 187
+    },
+    {
+        "domain": "joke",
+        "text": "说个笑话集里面的笑话",
+        "id": 188
+    },
+    {
+        "domain": "joke",
+        "text": "给我看看医疗笑话",
+        "id": 189
+    },
+    {
+        "domain": "joke",
+        "text": "发一个儿童笑话给我",
+        "id": 190
+    },
+    {
+        "domain": "joke",
+        "text": "还有没有交通笑话了",
+        "id": 191
+    },
+    {
+        "domain": "joke",
+        "text": "搞笑笑话不断",
+        "id": 192
+    },
+    {
+        "domain": "joke",
+        "text": "儿童笑话来一个乐呵乐呵",
+        "id": 193
+    },
+    {
+        "domain": "joke",
+        "text": "随便说个搞笑的段子来缓解一下尴尬的气氛",
+        "id": 194
+    },
+    {
+        "domain": "joke",
+        "text": "可不可以说民间笑话",
+        "id": 195
+    },
+    {
+        "domain": "joke",
+        "text": "请说一个民间笑话",
+        "id": 196
+    },
+    {
+        "domain": "joke",
+        "text": "逗我一下",
+        "id": 197
+    },
+    {
+        "domain": "joke",
+        "text": "开心一下",
+        "id": 198
+    },
+    {
+        "domain": "joke",
+        "text": "我没听清",
+        "id": 199
+    },
+    {
+        "domain": "joke",
+        "text": "重讲一遍",
+        "id": 200
+    },
+    {
+        "domain": "joke",
+        "text": "上一个笑话",
+        "id": 201
+    },
+    {
+        "domain": "joke",
+        "text": "上一个",
+        "id": 202
+    },
+    {
+        "domain": "joke",
+        "text": "退出笑话",
+        "id": 203
+    },
+    {
+        "domain": "joke",
+        "text": "算了吧，停",
+        "id": 204
+    },
+    {
+        "domain": "joke",
+        "text": "我想听上一个笑话",
+        "id": 205
+    },
+    {
+        "domain": "joke",
+        "text": "我不想听了",
+        "id": 206
+    },
+    {
+        "domain": "joke",
+        "text": "退出吧",
+        "id": 207
+    },
+    {
+        "domain": "joke",
+        "text": "停止笑话",
+        "id": 208
+    },
+    {
+        "domain": "joke",
+        "text": "关闭笑话",
+        "id": 209
+    },
+    {
+        "domain": "joke",
+        "text": "笑话停止",
+        "id": 210
+    },
+    {
+        "domain": "joke",
+        "text": "笑话退出",
+        "id": 211
+    },
+    {
+        "domain": "joke",
+        "text": "我不想听笑话",
+        "id": 212
+    },
+    {
+        "domain": "joke",
+        "text": "把笑话关了",
+        "id": 213
+    },
+    {
+        "domain": "joke",
+        "text": "上一集笑话",
+        "id": 214
+    },
+    {
+        "domain": "joke",
+        "text": "换上一集笑话",
+        "id": 215
+    },
+    {
+        "domain": "joke",
+        "text": "我想看上一集笑话",
+        "id": 216
+    },
+    {
+        "domain": "joke",
+        "text": "给我放上一个笑话",
+        "id": 217
+    },
+    {
+        "domain": "joke",
+        "text": "播上一个笑话",
+        "id": 218
+    },
+    {
+        "domain": "joke",
+        "text": "上一个笑话给我放",
+        "id": 219
+    },
+    {
+        "domain": "joke",
+        "text": "上一集笑话",
+        "id": 220
+    },
+    {
+        "domain": "joke",
+        "text": "切换成上一个",
+        "id": 221
+    },
+    {
+        "domain": "joke",
+        "text": "重新讲一下",
+        "id": 222
+    },
+    {
+        "domain": "joke",
+        "text": "重新讲一次",
+        "id": 223
+    },
+    {
+        "domain": "joke",
+        "text": "再讲一下吧",
+        "id": 224
+    },
+    {
+        "domain": "joke",
+        "text": "重复一下",
+        "id": 225
+    },
+    {
+        "domain": "joke",
+        "text": "能再说一次吗",
+        "id": 226
+    },
+    {
+        "domain": "joke",
+        "text": "再听一次",
+        "id": 227
+    },
+    {
+        "domain": "joke",
+        "text": "重新播一下",
+        "id": 228
+    }
+]

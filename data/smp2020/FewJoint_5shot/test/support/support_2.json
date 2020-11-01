@@ -1,0 +1,289 @@
+[
+    {
+        "domain": "virusSearch",
+        "text": "打开疫情地图",
+        "intent": "MAP",
+        "slots": {}
+    },
+    {
+        "domain": "virusSearch",
+        "text": "打开疫情地图可以吗",
+        "intent": "MAP",
+        "slots": {}
+    },
+    {
+        "domain": "virusSearch",
+        "text": "给我打开疫情地图",
+        "intent": "MAP",
+        "slots": {}
+    },
+	{
+        "domain": "virusSearch",
+        "text": "可以打开新冠病毒地图吗",
+        "intent": "MAP",
+        "slots": {}
+    },
+    {
+        "domain": "virusSearch",
+        "text": "我想要疫情地图",
+        "intent": "MAP",
+        "slots": {}
+    },
+    {
+        "domain": "virusSearch",
+        "text": "昨天高新区有多少人治愈的",
+        "intent": "NOTCITY_SEARCH",
+        "slots": {
+            "datetime_date": "昨天",
+            "type": "治愈"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在有多少新增确诊人数",
+        "intent": "NOTCITY_SEARCH",
+        "slots": {
+            "datetime_date": "现在",
+            "add": "新增",
+            "type": "确诊"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "帮我看看2月8号疑似人数",
+        "intent": "NOTCITY_SEARCH",
+        "slots": {
+            "datetime_date": "2月8号",
+            "type": "疑似"
+        }
+    },
+	{
+        "domain": "virusSearch",
+        "text": "今天多少疑似的",
+        "intent": "NOTCITY_SEARCH",
+        "slots": {
+            "datetime_date": "今天",
+            "type": "疑似"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "截止二月七号为止有多少数量的死亡人数",
+        "intent": "NOTCITY_SEARCH",
+        "slots": {
+            "datetime_date": "二月七号",
+            "type": "死亡"
+        }
+    },
+    
+    {
+        "domain": "virusSearch",
+        "text": "南京有多少数量的死亡人数",
+        "intent": "NOTDATATIME_SEARCH",
+        "slots": {
+            "city": "南京",
+            "type": "死亡"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "美国确诊人数多少",
+        "intent": "NOTDATATIME_SEARCH",
+        "slots": {
+            "country": "美国",
+            "type": "确诊"
+        }
+    },
+    
+    {
+        "domain": "virusSearch",
+        "text": "美国感染新冠病毒死亡的数量统计",
+        "intent": "NOTDATATIME_SEARCH",
+        "slots": {
+            "country": "美国",
+            "type": "死亡"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "安徽地区有多少的增加疑似",
+        "intent": "NOTDATATIME_SEARCH",
+        "slots": {
+            "cityMix": "安徽",
+            "add": "增加",
+            "type": "疑似"
+        }
+    },
+    
+	{
+    "domain": "virusSearch",
+    "text": "你知道全国今天的新型冠状病毒感染情况吗",
+    "intent": "NOTTYPE_SEARCH",
+    "slots": {
+      "country": "全国",
+      "datetime_date": "今天"
+    }
+  },
+	{
+    "domain": "virusSearch",
+    "text": "现在俄罗斯有多少人确诊的",
+    "intent": "NOTDATATIME_SEARCH",
+    "slots": {
+      "country": "俄罗斯",
+      "type": "确诊"
+    }
+  },
+    {
+        "domain": "virusSearch",
+        "text": "目前为止俄罗斯有多少轻症的",
+        "intent": "NOTDATATIME_SEARCH",
+        "slots": {
+            "country": "俄罗斯",
+            "type": "轻症"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天内蒙古有多少病例",
+        "intent": "NOTTYPE_SEARCH",
+        "slots": {
+            "datetime_date": "今天",
+            "cityMix": "内蒙古"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国有多少新增的新冠例",
+        "intent": "NOTTYPE_SEARCH",
+        "slots": {
+            "datetime_date": "现在",
+            "cityMix": "全国",
+            "add": "新增"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "昨天拉萨多少的新冠例",
+        "intent": "NOTTYPE_SEARCH",
+        "slots": {
+            "datetime_date": "昨天",
+            "city": "拉萨"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天新型冠状病毒感染多少病例",
+        "intent": "NOTTYPE_SEARCH",
+        "slots": {
+            "datetime_date": "今天"
+        }
+    },
+	{
+        "domain": "virusSearch",
+        "text": "2月12日合肥市多少的病例",
+        "intent": "NOTTYPE_SEARCH",
+        "slots": {
+            "datetime_date": "2月12日",
+            "city": "合肥市"
+        }
+    },
+	{
+    "domain": "virusSearch",
+    "text": "上海这边有多少的增加确证的重症患者",
+    "intent": "NOTDATATIME_SEARCH",
+    "slots": {
+      "city": "上海",
+      "add": "增加",
+      "type": "重症"
+    }
+  },
+    {
+        "domain": "virusSearch",
+        "text": "因本次新型冠状病毒感染死亡的人有多少",
+        "intent": "OTHER_SEARCH",
+        "slots": {
+            "type": "死亡"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "最新疫情确诊多少例",
+        "intent": "OTHER_SEARCH",
+        "slots": {
+            "add": "最新",
+            "type": "确诊"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "最近的疫情怎么样了",
+        "intent": "OTHER_SEARCH",
+        "slots": {}
+    },
+	{
+        "domain": "virusSearch",
+        "text": "今天有多少人肺炎确诊",
+        "intent": "OTHER_SEARCH",
+        "slots": {
+            "type": "确诊"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "新型冠状病毒肺炎确诊有多少人",
+        "intent": "OTHER_SEARCH",
+        "slots": {
+            "type": "确诊"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "今天黄山多少确诊的",
+        "intent": "SEARCH",
+        "slots": {
+            "datetime_date": "今天",
+            "city": "黄山",
+            "type": "确诊"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "到今天为止东北有多少数量的治愈",
+        "intent": "SEARCH",
+        "slots": {
+            "datetime_date": "今天",
+            "cityMix": "东北",
+            "type": "治愈"
+        }
+    },
+	{
+        "domain": "virusSearch",
+        "text": "现在全国新冠病毒确诊多少例",
+        "intent": "SEARCH",
+        "slots": {
+            "datetime_date": "现在",
+            "cityMix": "全国",
+            "type": "确诊"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在湖北的一行有多少人治愈了",
+        "intent": "SEARCH",
+        "slots": {
+            "datetime_date": "现在",
+            "cityMix": "湖北",
+            "type": "治愈"
+        }
+    },
+    {
+        "domain": "virusSearch",
+        "text": "现在全国疫情确诊有多少人",
+        "intent": "SEARCH",
+        "slots": {
+            "datetime_date": "现在",
+            "cityMix": "全国",
+            "type": "确诊"
+        }
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "domain": "timesTable",
+        "text": "查看九九乘法表",
+        "intent": "MULTIPLY_ALL",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "退出乘法表吧",
+        "intent": "MULTIPLY_EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "3乘1等于多少",
+        "intent": "MULTIPLY_ONE",
+        "slots": {
+            "multiplier": "3",
+            "multiplicand": "1"
+        }
+    },
+    {
+        "domain": "timesTable",
+        "text": "4乘7等于多少",
+        "intent": "MULTIPLY_ONE",
+        "slots": {
+            "multiplier": "4",
+            "multiplicand": "7"
+        }
+    },
+    {
+        "domain": "timesTable",
+        "text": "打开九九乘法表完整的",
+        "intent": "MULTIPLY_ALL",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "给我出一个九九乘法表的题",
+        "intent": "MULTIPLY_REMEMBER",
+        "slots": {}
+    },
+	{
+        "domain": "timesTable",
+        "text": "能不能告诉我6乘5等于多少",
+        "intent": "MULTIPLY_ONE",
+        "slots": {
+            "multiplier": "6",
+            "multiplicand": "5"
+        }
+    },
+    {
+        "domain": "timesTable",
+        "text": "5乘9等于多少",
+        "intent": "MULTIPLY_ONE",
+        "slots": {
+            "multiplier": "5",
+            "multiplicand": "9"
+        }
+    },
+    {
+        "domain": "timesTable",
+        "text": "结束",
+        "intent": "MULTIPLY_EXIT",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "1乘3呢",
+        "intent": "MULTIPLY_ONE",
+        "slots": {
+            "multiplier": "1",
+            "multiplicand": "3"
+        }
+    },
+    {
+        "domain": "timesTable",
+        "text": "能不能告诉我完整的九九乘法表",
+        "intent": "MULTIPLY_ALL",
+        "slots": {}
+    },
+	{
+        "domain": "timesTable",
+        "text": "我想看完整的乘法表",
+        "intent": "MULTIPLY_ALL",
+        "slots": {}
+    },
+	{
+        "domain": "timesTable",
+        "text": "我想知道九九乘法表完整的",
+        "intent": "MULTIPLY_ALL",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "不答了",
+        "intent": "MULTIPLY_EXIT",
+        "slots": {}
+    },
+	{
+        "domain": "timesTable",
+        "text": "把九九乘法表关闭",
+        "intent": "MULTIPLY_EXIT",
+        "slots": {}
+    },
+	{
+        "domain": "timesTable",
+        "text": "关闭九九乘法表",
+        "intent": "MULTIPLY_EXIT",
+        "slots": {}
+    },
+	{
+        "domain": "timesTable",
+        "text": "再出道题目练习九九乘法表",
+        "intent": "MULTIPLY_REMEMBER",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "我想测一下乘法表背的怎么样",
+        "intent": "MULTIPLY_REMEMBER",
+        "slots": {}
+    },
+	{
+        "domain": "timesTable",
+        "text": "我想练一下九九乘法表题目",
+        "intent": "MULTIPLY_REMEMBER",
+        "slots": {}
+    },
+    {
+        "domain": "timesTable",
+        "text": "来几个题目测一下乘法表记得怎么样",
+        "intent": "MULTIPLY_REMEMBER",
+        "slots": {}
+    }
+]

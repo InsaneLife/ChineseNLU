@@ -1,0 +1,1483 @@
+[
+  {
+    "domain": "drama",
+    "text": "你会不会唱戏啊",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 0
+  },
+  {
+    "domain": "drama",
+    "text": "你唱一段戏吧",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 1
+  },
+  {
+    "domain": "drama",
+    "text": "我想听戏",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 2
+  },
+  {
+    "domain": "drama",
+    "text": "我想听你唱戏",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 3
+  },
+  {
+    "domain": "drama",
+    "text": "你会唱戏吗",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 4
+  },
+  {
+    "domain": "drama",
+    "text": "中国有哪些著名的戏曲",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 5
+  },
+  {
+    "domain": "drama",
+    "text": "我想听戏曲",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 6
+  },
+  {
+    "domain": "drama",
+    "text": "你的库里有什么戏曲",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 7
+  },
+  {
+    "domain": "drama",
+    "text": "请给我唱一段铡美案",
+    "intent": "QUERY",
+    "slots": {
+      "name": "铡美案"
+    },
+    "id": 8
+  },
+  {
+    "domain": "drama",
+    "text": "铡美案",
+    "intent": "QUERY",
+    "slots": {
+      "name": "铡美案"
+    },
+    "id": 9
+  },
+  {
+    "domain": "drama",
+    "text": "播放一段铡美案",
+    "intent": "QUERY",
+    "slots": {
+      "name": "铡美案"
+    },
+    "id": 10
+  },
+  {
+    "domain": "drama",
+    "text": "我奶奶喜欢看休丁香，你给我放一段",
+    "intent": "QUERY",
+    "slots": {
+      "name": "休丁香"
+    },
+    "id": 11
+  },
+  {
+    "domain": "drama",
+    "text": "春晚上的戏曲节目",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 12
+  },
+  {
+    "domain": "drama",
+    "text": "有没有天仙配",
+    "intent": "QUERY",
+    "slots": {
+      "name": "天仙配"
+    },
+    "id": 13
+  },
+  {
+    "domain": "drama",
+    "text": "播放一段天女散花",
+    "intent": "QUERY",
+    "slots": {
+      "name": "天女散花"
+    },
+    "id": 14
+  },
+  {
+    "domain": "drama",
+    "text": "我想听说唱脸谱",
+    "intent": "QUERY",
+    "slots": {
+      "name": "说唱脸谱"
+    },
+    "id": 15
+  },
+  {
+    "domain": "drama",
+    "text": "给我播放说唱脸谱",
+    "intent": "QUERY",
+    "slots": {
+      "name": "说唱脸谱"
+    },
+    "id": 16
+  },
+  {
+    "domain": "drama",
+    "text": "播放一段七仙女下凡",
+    "intent": "QUERY",
+    "slots": {
+      "name": "七仙女下凡"
+    },
+    "id": 17
+  },
+  {
+    "domain": "drama",
+    "text": "来一段女驸马选段",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马"
+    },
+    "id": 18
+  },
+  {
+    "domain": "drama",
+    "text": "放一段玉堂春里面的选段",
+    "intent": "QUERY",
+    "slots": {
+      "name": "玉堂春"
+    },
+    "id": 19
+  },
+  {
+    "domain": "drama",
+    "text": "我要听女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    },
+    "id": 20
+  },
+  {
+    "domain": "drama",
+    "text": "女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    },
+    "id": 21
+  },
+  {
+    "domain": "drama",
+    "text": "打开女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    },
+    "id": 22
+  },
+  {
+    "domain": "drama",
+    "text": "帮我打开女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    },
+    "id": 23
+  },
+  {
+    "domain": "drama",
+    "text": "帮我播放女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    },
+    "id": 24
+  },
+  {
+    "domain": "drama",
+    "text": "播放女驸马选段为救李郎离家园",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家园"
+    },
+    "id": 25
+  },
+  {
+    "domain": "drama",
+    "text": "听女驸马选段为救李郎离家元",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "为救李郎离家元"
+    },
+    "id": 26
+  },
+  {
+    "domain": "drama",
+    "text": "我想听女驸马里面洞房花烛夜那一段",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马",
+      "selections": "洞房花烛夜"
+    },
+    "id": 27
+  },
+  {
+    "domain": "drama",
+    "text": "来一段女驸马",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马"
+    },
+    "id": 28
+  },
+  {
+    "domain": "drama",
+    "text": "女驸马选段有没有",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马"
+    },
+    "id": 30
+  },
+  {
+    "domain": "drama",
+    "text": "给我找一段女驸马的经典片段",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马"
+    },
+    "id": 31
+  },
+  {
+    "domain": "drama",
+    "text": "女驸马你会唱吗",
+    "intent": "QUERY",
+    "slots": {
+      "name": "女驸马"
+    },
+    "id": 32
+  },
+  {
+    "domain": "drama",
+    "text": "我要听南京的戏曲",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 33
+  },
+  {
+    "domain": "drama",
+    "text": "请给我播放戏曲大闹天宫",
+    "intent": "QUERY",
+    "slots": {
+      "name": "大闹天宫"
+    },
+    "id": 34
+  },
+  {
+    "domain": "drama",
+    "text": "霸王别姬选段劝君王给我播放一会",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 35
+  },
+  {
+    "domain": "drama",
+    "text": "我还想再听一会霸王别姬选段劝君王",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 36
+  },
+  {
+    "domain": "drama",
+    "text": "能不能再给我看会霸王别姬选段劝君王",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 37
+  },
+  {
+    "domain": "drama",
+    "text": "搜一下霸王别姬选段劝君王",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 38
+  },
+  {
+    "domain": "drama",
+    "text": "可以帮我查一下霸王别姬选段劝君王吗",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 39
+  },
+  {
+    "domain": "drama",
+    "text": "霸王别姬选段劝君王给我找一下可以吗",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 40
+  },
+  {
+    "domain": "drama",
+    "text": "请给我来个霸王别姬选段劝君王吧",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 41
+  },
+  {
+    "domain": "drama",
+    "text": "麻烦给我来霸王别姬选段劝君王吧",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 42
+  },
+  {
+    "domain": "drama",
+    "text": "霸王别姬选段劝君王给我听一会",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 43
+  },
+  {
+    "domain": "drama",
+    "text": "可不可以播放霸王别姬选段劝君王",
+    "intent": "QUERY",
+    "slots": {
+      "name": "霸王别姬",
+      "selections": "劝君王"
+    },
+    "id": 44
+  },
+  {
+    "domain": "drama",
+    "text": "给我放一段越剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "越剧"
+    },
+    "id": 49
+  },
+  {
+    "domain": "drama",
+    "text": "越剧好不好听",
+    "intent": "QUERY",
+    "slots": {
+      "category": "越剧"
+    },
+    "id": 50
+  },
+  {
+    "domain": "drama",
+    "text": "给我播放一段越剧可以吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "越剧"
+    },
+    "id": 51
+  },
+  {
+    "domain": "drama",
+    "text": "豫剧有没有",
+    "intent": "QUERY",
+    "slots": {
+      "category": "豫剧"
+    },
+    "id": 52
+  },
+  {
+    "domain": "drama",
+    "text": "能不能给我来一段豫剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "豫剧"
+    },
+    "id": 53
+  },
+  {
+    "domain": "drama",
+    "text": "豫剧代表人物有哪些",
+    "intent": "QUERY",
+    "slots": {
+      "category": "豫剧"
+    },
+    "id": 54
+  },
+  {
+    "domain": "drama",
+    "text": "来一段豫剧吧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "豫剧"
+    },
+    "id": 55
+  },
+  {
+    "domain": "drama",
+    "text": "有什么好听的豫剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "豫剧"
+    },
+    "id": 56
+  },
+  {
+    "domain": "drama",
+    "text": "请给我放一段豫剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "豫剧"
+    },
+    "id": 57
+  },
+  {
+    "domain": "drama",
+    "text": "有没有沂蒙小调",
+    "intent": "QUERY",
+    "slots": {
+      "category": "沂蒙小调"
+    },
+    "id": 58
+  },
+  {
+    "domain": "drama",
+    "text": "我想听泗州戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "泗州戏"
+    },
+    "id": 59
+  },
+  {
+    "domain": "drama",
+    "text": "我想听金陵十三钗里面的秦腔",
+    "intent": "QUERY",
+    "slots": {
+      "category": "秦腔",
+      "name": "金陵十三钗里面"
+    },
+    "id": 60
+  },
+  {
+    "domain": "drama",
+    "text": "我想听陕西秦腔",
+    "intent": "QUERY",
+    "slots": {
+      "category": "秦腔"
+    },
+    "id": 61
+  },
+  {
+    "domain": "drama",
+    "text": "庐剧梁山伯与祝英台",
+    "intent": "QUERY",
+    "slots": {
+      "category": "庐剧",
+      "name": "梁山伯与祝英台"
+    },
+    "id": 62
+  },
+  {
+    "domain": "drama",
+    "text": "有没有庐剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "庐剧"
+    },
+    "id": 63
+  },
+  {
+    "domain": "drama",
+    "text": "请给我播放一段庐剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "庐剧"
+    },
+    "id": 64
+  },
+  {
+    "domain": "drama",
+    "text": "著名的昆曲家是谁",
+    "intent": "QUERY",
+    "slots": {
+      "category": "昆曲"
+    },
+    "id": 65
+  },
+  {
+    "domain": "drama",
+    "text": "昆曲游园惊梦有没有",
+    "intent": "QUERY",
+    "slots": {
+      "category": "昆曲",
+      "name": "游园惊梦"
+    },
+    "id": 66
+  },
+  {
+    "domain": "drama",
+    "text": "来一段昆曲牡丹亭中的游园惊梦",
+    "intent": "QUERY",
+    "slots": {
+      "category": "昆曲",
+      "name": "牡丹亭",
+      "selections": "游园惊梦"
+    },
+    "id": 67
+  },
+  {
+    "domain": "drama",
+    "text": "给我播放一段昆曲",
+    "intent": "QUERY",
+    "slots": {
+      "category": "昆曲"
+    },
+    "id": 69
+  },
+  {
+    "domain": "drama",
+    "text": "有京剧吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧"
+    },
+    "id": 70
+  },
+  {
+    "domain": "drama",
+    "text": "给我推荐一些京剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧"
+    },
+    "id": 71
+  },
+  {
+    "domain": "drama",
+    "text": "我想听一个经典的京剧段子",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧"
+    },
+    "id": 72
+  },
+  {
+    "domain": "drama",
+    "text": "我想听搞笑一点的京剧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧"
+    },
+    "id": 73
+  },
+  {
+    "domain": "drama",
+    "text": "京剧赵氏孤儿好不好听",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧",
+      "name": "赵氏孤儿"
+    },
+    "id": 74
+  },
+  {
+    "domain": "drama",
+    "text": "给我播放一段京剧赵氏孤儿",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧",
+      "name": "赵氏孤儿"
+    },
+    "id": 75
+  },
+  {
+    "domain": "drama",
+    "text": "请给我播放京剧铡美案",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧",
+      "name": "铡美案"
+    },
+    "id": 76
+  },
+  {
+    "domain": "drama",
+    "text": "京剧沙家浜",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧",
+      "name": "沙家浜"
+    },
+    "id": 77
+  },
+  {
+    "domain": "drama",
+    "text": "我想听京剧黛玉葬花",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧",
+      "name": "黛玉葬花"
+    },
+    "id": 78
+  },
+  {
+    "domain": "drama",
+    "text": "我要听京剧霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧",
+      "name": "霸王别姬"
+    },
+    "id": 79
+  },
+  {
+    "domain": "drama",
+    "text": "有京剧霸王别姬吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧",
+      "name": "霸王别姬"
+    },
+    "id": 80
+  },
+  {
+    "domain": "drama",
+    "text": "唱一段京剧呗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧"
+    },
+    "id": 81
+  },
+  {
+    "domain": "drama",
+    "text": "给我来一段京剧吧",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧"
+    },
+    "id": 82
+  },
+  {
+    "domain": "drama",
+    "text": "你真的会唱京剧吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "京剧"
+    },
+    "id": 83
+  },
+  {
+    "domain": "drama",
+    "text": "黄梅戏有哪些好听的曲目",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 84
+  },
+  {
+    "domain": "drama",
+    "text": "我想听黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 85
+  },
+  {
+    "domain": "drama",
+    "text": "我要听黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 86
+  },
+  {
+    "domain": "drama",
+    "text": "黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 87
+  },
+  {
+    "domain": "drama",
+    "text": "安徽的戏曲有哪些",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 88
+  },
+  {
+    "domain": "drama",
+    "text": "给我推荐一些黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 89
+  },
+  {
+    "domain": "drama",
+    "text": "安徽有什么特有的戏曲",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 90
+  },
+  {
+    "domain": "drama",
+    "text": "我想听黄梅戏戏牡丹",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏",
+      "name": "戏牡丹"
+    },
+    "id": 91
+  },
+  {
+    "domain": "drama",
+    "text": "给我唱一段黄梅戏女驸马",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏",
+      "name": "女驸马"
+    },
+    "id": 92
+  },
+  {
+    "domain": "drama",
+    "text": "黄梅戏牛郎织女给我播放一段",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏",
+      "name": "牛郎织女"
+    },
+    "id": 93
+  },
+  {
+    "domain": "drama",
+    "text": "梁祝有黄梅戏版吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏",
+      "name": "梁祝"
+    },
+    "id": 94
+  },
+  {
+    "domain": "drama",
+    "text": "来一段黄梅戏梁山伯与祝英台",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏",
+      "name": "梁山伯与祝英台"
+    },
+    "id": 95
+  },
+  {
+    "domain": "drama",
+    "text": "来一段黄梅戏里面的夫妻双双把家还",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏",
+      "name": "夫妻双双把家还"
+    },
+    "id": 96
+  },
+  {
+    "domain": "drama",
+    "text": "黄梅戏有哪些比较有名的曲目",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 97
+  },
+  {
+    "domain": "drama",
+    "text": "黄梅戏有吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 98
+  },
+  {
+    "domain": "drama",
+    "text": "放一段黄梅戏的经典选段",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 99
+  },
+  {
+    "domain": "drama",
+    "text": "放一首黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "黄梅戏"
+    },
+    "id": 100
+  },
+  {
+    "domain": "drama",
+    "text": "我想听淮海戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "淮海戏"
+    },
+    "id": 101
+  },
+  {
+    "domain": "drama",
+    "text": "我想听花鼓戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "花鼓戏"
+    },
+    "id": 102
+  },
+  {
+    "domain": "drama",
+    "text": "我想听花灯戏",
+    "intent": "QUERY",
+    "slots": {
+      "category": "花灯戏"
+    },
+    "id": 103
+  },
+  {
+    "domain": "drama",
+    "text": "有河南坠子吗",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河南坠子"
+    },
+    "id": 104
+  },
+  {
+    "domain": "drama",
+    "text": "放一首河北梆子戏曲",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河北梆子"
+    },
+    "id": 105
+  },
+  {
+    "domain": "drama",
+    "text": "有没有河北梆子",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河北梆子"
+    },
+    "id": 106
+  },
+  {
+    "domain": "drama",
+    "text": "河北梆子最有名的一段",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河北梆子"
+    },
+    "id": 107
+  },
+  {
+    "domain": "drama",
+    "text": "播放一段河北梆子",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河北梆子"
+    },
+    "id": 108
+  },
+  {
+    "domain": "drama",
+    "text": "来一段河北梆子",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河北梆子"
+    },
+    "id": 109
+  },
+  {
+    "domain": "drama",
+    "text": "放河北梆子",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河北梆子"
+    },
+    "id": 110
+  },
+  {
+    "domain": "drama",
+    "text": "我想听河北梆子",
+    "intent": "QUERY",
+    "slots": {
+      "category": "河北梆子"
+    },
+    "id": 111
+  },
+  {
+    "domain": "drama",
+    "text": "我想听河北戏曲",
+    "intent": "QUERY",
+    "slots": {},
+    "id": 112
+  },
+  {
+    "domain": "drama",
+    "text": "请给我播放一段凤阳花鼓",
+    "intent": "QUERY",
+    "slots": {
+      "category": "凤阳花鼓"
+    },
+    "id": 113
+  },
+  {
+    "domain": "drama",
+    "text": "我想听二夹弦",
+    "intent": "QUERY",
+    "slots": {
+      "category": "二夹弦"
+    },
+    "id": 114
+  },
+  {
+    "domain": "drama",
+    "text": "朱德顺的庐剧有吗",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "朱德顺",
+      "category": "庐剧"
+    },
+    "id": 115
+  },
+  {
+    "domain": "drama",
+    "text": "我想听朱德顺的庐剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "朱德顺",
+      "category": "庐剧"
+    },
+    "id": 116
+  },
+  {
+    "domain": "drama",
+    "text": "周小五唱的庐剧有哪些",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "周小五",
+      "category": "庐剧"
+    },
+    "id": 117
+  },
+  {
+    "domain": "drama",
+    "text": "放一段周小五的庐剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "周小五",
+      "category": "庐剧"
+    },
+    "id": 118
+  },
+  {
+    "domain": "drama",
+    "text": "有没有严凤英和王少舫一起唱的黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "artist": [
+        "严凤英",
+        "王少舫"
+      ],
+      "category": "黄梅戏"
+    },
+    "id": 119
+  },
+  {
+    "domain": "drama",
+    "text": "严凤英的选段有吗",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "严凤英"
+    },
+    "id": 120
+  },
+  {
+    "domain": "drama",
+    "text": "严凤英的黄梅戏有吗",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "严凤英",
+      "category": "黄梅戏"
+    },
+    "id": 121
+  },
+  {
+    "domain": "drama",
+    "text": "有没有严凤英的黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "严凤英",
+      "category": "黄梅戏"
+    },
+    "id": 122
+  },
+  {
+    "domain": "drama",
+    "text": "给我播放严凤英的黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "严凤英",
+      "category": "黄梅戏"
+    },
+    "id": 123
+  },
+  {
+    "domain": "drama",
+    "text": "夏小二的庐剧有没有",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "夏小二",
+      "category": "庐剧"
+    },
+    "id": 124
+  },
+  {
+    "domain": "drama",
+    "text": "我要听夏小二的庐剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "夏小二",
+      "category": "庐剧"
+    },
+    "id": 125
+  },
+  {
+    "domain": "drama",
+    "text": "有没有夏小二的庐剧呀",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "夏小二",
+      "category": "庐剧"
+    },
+    "id": 126
+  },
+  {
+    "domain": "drama",
+    "text": "我想听一段夏小二的庐剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "夏小二",
+      "category": "庐剧"
+    },
+    "id": 127
+  },
+  {
+    "domain": "drama",
+    "text": "来一段吴琼的黄梅戏吧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "吴琼",
+      "category": "黄梅戏"
+    },
+    "id": 128
+  },
+  {
+    "domain": "drama",
+    "text": "吴琼的黄梅戏给我放一段",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "吴琼",
+      "category": "黄梅戏"
+    },
+    "id": 129
+  },
+  {
+    "domain": "drama",
+    "text": "王少舫的黄梅戏有没有",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "王少舫",
+      "category": "黄梅戏"
+    },
+    "id": 130
+  },
+  {
+    "domain": "drama",
+    "text": "我要听王佩瑜的京剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "王佩瑜",
+      "category": "京剧"
+    },
+    "id": 131
+  },
+  {
+    "domain": "drama",
+    "text": "听一下唐喜成的豫剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "唐喜成",
+      "category": "豫剧"
+    },
+    "id": 132
+  },
+  {
+    "domain": "drama",
+    "text": "我要听梅兰芳的作品",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳"
+    },
+    "id": 133
+  },
+  {
+    "domain": "drama",
+    "text": "梅兰芳唱过天仙配吗",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "天仙配"
+    },
+    "id": 134
+  },
+  {
+    "domain": "drama",
+    "text": "放一段梅兰芳的穆柯寨",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "穆柯寨"
+    },
+    "id": 135
+  },
+  {
+    "domain": "drama",
+    "text": "梅兰芳演的罗敷女唱段给我来一段吧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "罗敷女"
+    },
+    "id": 136
+  },
+  {
+    "domain": "drama",
+    "text": "我想听一听霸王别姬，梅兰芳唱的",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 137
+  },
+  {
+    "domain": "drama",
+    "text": "我要看梅兰芳的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 138
+  },
+  {
+    "domain": "drama",
+    "text": "给我换个梅兰芳的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 139
+  },
+  {
+    "domain": "drama",
+    "text": "替我搜一下梅兰芳的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 140
+  },
+  {
+    "domain": "drama",
+    "text": "霸王别姬梅兰芳的给我找一个可不可以",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 141
+  },
+  {
+    "domain": "drama",
+    "text": "能不能给我找梅兰芳的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 142
+  },
+  {
+    "domain": "drama",
+    "text": "给我收听个梅兰芳的霸王别姬好不好",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 143
+  },
+  {
+    "domain": "drama",
+    "text": "我要看一会梅兰芳唱的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 144
+  },
+  {
+    "domain": "drama",
+    "text": "还是来一个梅兰芳的霸王别姬吧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 145
+  },
+  {
+    "domain": "drama",
+    "text": "我想观看会梅兰芳唱的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 146
+  },
+  {
+    "domain": "drama",
+    "text": "我想看梅兰芳的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 147
+  },
+  {
+    "domain": "drama",
+    "text": "给我放映一段梅兰芳唱的霸王别姬",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 148
+  },
+  {
+    "domain": "drama",
+    "text": "霸王别姬梅兰芳唱的帮我搜索下",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 149
+  },
+  {
+    "domain": "drama",
+    "text": "给我换成梅兰芳唱的霸王别姬吧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 150
+  },
+  {
+    "domain": "drama",
+    "text": "梅兰芳唱的霸王别姬给我播放一会",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "name": "霸王别姬"
+    },
+    "id": 151
+  },
+  {
+    "domain": "drama",
+    "text": "给我来一段梅兰芳最有名的京剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "category": "京剧"
+    },
+    "id": 152
+  },
+  {
+    "domain": "drama",
+    "text": "梅兰芳的京剧有没有",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "category": "京剧"
+    },
+    "id": 153
+  },
+  {
+    "domain": "drama",
+    "text": "梅兰芳的京剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "category": "京剧"
+    },
+    "id": 154
+  },
+  {
+    "domain": "drama",
+    "text": "梅兰芳是唱京剧的吧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "category": "京剧"
+    },
+    "id": 155
+  },
+  {
+    "domain": "drama",
+    "text": "我想听梅兰芳的京剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "category": "京剧"
+    },
+    "id": 156
+  },
+  {
+    "domain": "drama",
+    "text": "我想听的是梅兰芳的京剧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "category": "京剧"
+    },
+    "id": 157
+  },
+  {
+    "domain": "drama",
+    "text": "我想听梅兰芳的黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳",
+      "category": "黄梅戏"
+    },
+    "id": 158
+  },
+  {
+    "domain": "drama",
+    "text": "梅兰芳的代表作来一个",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "梅兰芳"
+    },
+    "id": 159
+  },
+  {
+    "domain": "drama",
+    "text": "来一段韩再芬的天仙配吧",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "韩再芬",
+      "name": "天仙配"
+    },
+    "id": 160
+  },
+  {
+    "domain": "drama",
+    "text": "韩再芬有没有唱过女驸马",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "韩再芬",
+      "name": "女驸马"
+    },
+    "id": 161
+  },
+  {
+    "domain": "drama",
+    "text": "韩再芬的黄梅戏有吗",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "韩再芬",
+      "category": "黄梅戏"
+    },
+    "id": 162
+  },
+  {
+    "domain": "drama",
+    "text": "我想听韩再芬唱黄梅戏",
+    "intent": "QUERY",
+    "slots": {
+      "artist": "韩再芬",
+      "category": "黄梅戏"
+    },
+    "id": 163
+  }
+]

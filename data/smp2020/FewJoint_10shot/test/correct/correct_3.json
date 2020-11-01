@@ -1,0 +1,659 @@
+[
+  {
+    "domain": "constellation",
+    "text": "具体和我说说每个星座的性格特点",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "point": "特点"
+    },
+    "id": 0
+  },
+  {
+    "domain": "constellation",
+    "text": "天蝎座和双子座的匹配系数是多少",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "天蝎座",
+        "双子座"
+      ]
+    },
+    "id": 1
+  },
+  {
+    "domain": "constellation",
+    "text": "天蝎座和白羊座能相处得来吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "天蝎座",
+        "白羊座"
+      ]
+    },
+    "id": 2
+  },
+  {
+    "domain": "constellation",
+    "text": "天蝎座的特点",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "name": "天蝎座",
+      "point": "特点"
+    },
+    "id": 3
+  },
+  {
+    "domain": "constellation",
+    "text": "搜索天蝎座的配对星座",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": "天蝎座"
+    },
+    "id": 6
+  },
+  {
+    "domain": "constellation",
+    "text": "天蝎座配什么星座",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": "天蝎座"
+    },
+    "id": 9
+  },
+  {
+    "domain": "constellation",
+    "text": "查看天蝎座是几月份的",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "天蝎座"
+    },
+    "id": 10
+  },
+  {
+    "domain": "constellation",
+    "text": "双鱼座的特征",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "name": "双鱼座",
+      "point": "特征"
+    },
+    "id": 11
+  },
+  {
+    "domain": "constellation",
+    "text": "水瓶座和双子座的人能做朋友吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "水瓶座",
+        "双子座"
+      ]
+    },
+    "id": 14
+  },
+  {
+    "domain": "constellation",
+    "text": "可不可以告诉我双子座的性格特点",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "name": "双子座",
+      "point": "特点"
+    },
+    "id": 16
+  },
+  {
+    "domain": "constellation",
+    "text": "查一下双子座和什么星座最配",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": "双子座"
+    },
+    "id": 17
+  },
+  {
+    "domain": "constellation",
+    "text": "与双子座比较搭的星座是什么",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": "双子座"
+    },
+    "id": 18
+  },
+  {
+    "domain": "constellation",
+    "text": "我还可以问双子座是多少号的",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "双子座"
+    },
+    "id": 19
+  },
+  {
+    "domain": "constellation",
+    "text": "请帮我推荐与双子座匹配的星座",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": "双子座"
+    },
+    "id": 20
+  },
+  {
+    "domain": "constellation",
+    "text": "帮我看看双鱼座和处女座的配对指数",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "双鱼座",
+        "处女座"
+      ]
+    },
+    "id": 21
+  },
+  {
+    "domain": "constellation",
+    "text": "帮我算算双鱼星座和处女星座的爱情指数吧",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "双鱼星座",
+        "处女星座"
+      ]
+    },
+    "id": 22
+  },
+  {
+    "domain": "constellation",
+    "text": "双鱼和白羊配吗",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": [
+        "双鱼",
+        "白羊"
+      ]
+    },
+    "id": 23
+  },
+  {
+    "domain": "constellation",
+    "text": "狮子座的日期",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "狮子座"
+    },
+    "id": 27
+  },
+  {
+    "domain": "constellation",
+    "text": "狮子座的开始时间",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "狮子座"
+    },
+    "id": 28
+  },
+  {
+    "domain": "constellation",
+    "text": "摩羯座有什么性格？",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "name": "摩羯座",
+      "point": "性格"
+    },
+    "id": 35
+  },
+  {
+    "domain": "constellation",
+    "text": "摩羯座是几月份",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "摩羯座"
+    },
+    "id": 36
+  },
+  {
+    "domain": "constellation",
+    "text": "摩羯座是几月几号到几月几号",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "摩羯座"
+    },
+    "id": 38
+  },
+  {
+    "domain": "constellation",
+    "text": "摩羯座的开始和结束日期",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "摩羯座"
+    },
+    "id": 39
+  },
+  {
+    "domain": "constellation",
+    "text": "金牛座的配对系数",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": "金牛座"
+    },
+    "id": 42
+  },
+  {
+    "domain": "constellation",
+    "text": "具体分析一下处女座的性格特点",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "name": "处女座",
+      "point": "特点"
+    },
+    "id": 44
+  },
+  {
+    "domain": "constellation",
+    "text": "处女座是几月出生的",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "处女座"
+    },
+    "id": 45
+  },
+  {
+    "domain": "constellation",
+    "text": "处女座是什么时候",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "处女座"
+    },
+    "id": 46
+  },
+  {
+    "domain": "constellation",
+    "text": "哪个月是处女座的",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "处女座"
+    },
+    "id": 47
+  },
+  {
+    "domain": "constellation",
+    "text": "我想了解处女座",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "处女座"
+    },
+    "id": 48
+  },
+  {
+    "domain": "constellation",
+    "text": "处女座跟哪个星座的人谈恋爱最好",
+    "intent": "COUPLE_QUERY",
+    "slots": {
+      "name": "处女座"
+    },
+    "id": 49
+  },
+  {
+    "domain": "constellation",
+    "text": "几月份出生的是处女座",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "处女座"
+    },
+    "id": 50
+  },
+  {
+    "domain": "constellation",
+    "text": "白羊座有什么特点",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "name": "白羊座",
+      "point": "特点"
+    },
+    "id": 51
+  },
+  {
+    "domain": "constellation",
+    "text": "可不可以和我说下白羊座在几月",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "白羊座"
+    },
+    "id": 52
+  },
+  {
+    "domain": "constellation",
+    "text": "搜索白羊座",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "白羊座"
+    },
+    "id": 53
+  },
+  {
+    "domain": "constellation",
+    "text": "查一下白羊座。",
+    "intent": "DATE_QUERY",
+    "slots": {
+      "name": "白羊座"
+    },
+    "id": 54
+  },
+  {
+    "domain": "constellation",
+    "text": "能告诉我处女座今天的运势吗",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今天",
+      "fortune": "运势",
+      "name": "处女座"
+    },
+    "id": 69
+  },
+  {
+    "domain": "constellation",
+    "text": "我想查下射手座今天的运气怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今天",
+      "fortune": "运气",
+      "name": "射手座"
+    },
+    "id": 70
+  },
+  {
+    "domain": "constellation",
+    "text": "查下双子座今日运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今日",
+      "fortune": "运势",
+      "name": "双子座"
+    },
+    "id": 71
+  },
+  {
+    "domain": "constellation",
+    "text": "金牛座本月运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "本月",
+      "fortune": "运势",
+      "name": "金牛座"
+    },
+    "id": 72
+  },
+  {
+    "domain": "constellation",
+    "text": "正月初二是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "正月初二"
+    },
+    "id": 74
+  },
+  {
+    "domain": "constellation",
+    "text": "天蝎座下周运势如何",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "下周",
+      "fortune": "运势",
+      "name": "天蝎座"
+    },
+    "id": 75
+  },
+  {
+    "domain": "constellation",
+    "text": "十月八号的星座运势怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "十月八号",
+      "fortune": "运势"
+    },
+    "id": 76
+  },
+  {
+    "domain": "constellation",
+    "text": "十一月初八是啥星座。",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "十一月初八"
+    },
+    "id": 77
+  },
+  {
+    "domain": "constellation",
+    "text": "十二月份是什么星座",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "十二月份"
+    },
+    "id": 78
+  },
+  {
+    "domain": "constellation",
+    "text": "金牛座明年的运势怎样？",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "明年",
+      "fortune": "运势",
+      "name": "金牛座"
+    },
+    "id": 79
+  },
+  {
+    "domain": "constellation",
+    "text": "六月初五是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "六月初五"
+    },
+    "id": 80
+  },
+  {
+    "domain": "constellation",
+    "text": "今天射手座的运气如何",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今天",
+      "fortune": "运气",
+      "name": "射手座"
+    },
+    "id": 81
+  },
+  {
+    "domain": "constellation",
+    "text": "说下双子座今年的运势怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "fortune": "运势",
+      "name": "双子座"
+    },
+    "id": 82
+  },
+  {
+    "domain": "constellation",
+    "text": "金牛座今年的运势怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "fortune": "运势",
+      "name": "金牛座"
+    },
+    "id": 83
+  },
+  {
+    "domain": "constellation",
+    "text": "白羊座今年的运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "今年",
+      "fortune": "运势",
+      "name": "白羊座"
+    },
+    "id": 84
+  },
+  {
+    "domain": "constellation",
+    "text": "8月6号是狮子座的性格怎么样？",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "datetime_date": "8月6号",
+      "name": "狮子座",
+      "point": "性格"
+    },
+    "id": 85
+  },
+  {
+    "domain": "constellation",
+    "text": "8月12号的星座特点是什么",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "datetime_date": "8月12号",
+      "point": "特点"
+    },
+    "id": 87
+  },
+  {
+    "domain": "constellation",
+    "text": "8月12号的对应的星座有什么特点",
+    "intent": "FEATURES_QUERY",
+    "slots": {
+      "datetime_date": "8月12号",
+      "point": "特点"
+    },
+    "id": 88
+  },
+  {
+    "domain": "constellation",
+    "text": "8月12号的星座运势如何",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "8月12号",
+      "fortune": "运势"
+    },
+    "id": 89
+  },
+  {
+    "domain": "constellation",
+    "text": "那你告诉我4月19号是什么星座",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "4月19号"
+    },
+    "id": 95
+  },
+  {
+    "domain": "constellation",
+    "text": "帮我查一下双子座2018年整体运势",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "2018年",
+      "fortune": "运势",
+      "name": "双子座"
+    },
+    "id": 97
+  },
+  {
+    "domain": "constellation",
+    "text": "1993年2月20日是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "1993年2月20日"
+    },
+    "id": 98
+  },
+  {
+    "domain": "constellation",
+    "text": "公元1991年11月9日是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "1991年11月9日"
+    },
+    "id": 99
+  },
+  {
+    "domain": "constellation",
+    "text": "1990年12月30号出生是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "1990年12月30号"
+    },
+    "id": 100
+  },
+  {
+    "domain": "constellation",
+    "text": "1987年6月15号出生的是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "1987年6月15号"
+    },
+    "id": 101
+  },
+  {
+    "domain": "constellation",
+    "text": "1984年12月14日是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "1984年12月14日"
+    },
+    "id": 102
+  },
+  {
+    "domain": "constellation",
+    "text": "1983年8月初二出生的是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "1983年8月初二"
+    },
+    "id": 103
+  },
+  {
+    "domain": "constellation",
+    "text": "1983年1月13号是什么星座啊？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "1983年1月13号"
+    },
+    "id": 104
+  },
+  {
+    "domain": "constellation",
+    "text": "11月23日出生的人是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "11月23日"
+    },
+    "id": 105
+  },
+  {
+    "domain": "constellation",
+    "text": "11月23号什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "11月23号"
+    },
+    "id": 106
+  },
+  {
+    "domain": "constellation",
+    "text": "双子座10月份的爱情怎么样",
+    "intent": "FATE_QUERY",
+    "slots": {
+      "datetime_date": "10月份",
+      "fortune": "爱情",
+      "name": "双子座"
+    },
+    "id": 107
+  },
+  {
+    "domain": "constellation",
+    "text": "10月25出生的是什么星座？",
+    "intent": "NAME_QUERY",
+    "slots": {
+      "datetime_date": "10月25"
+    },
+    "id": 108
+  }
+]

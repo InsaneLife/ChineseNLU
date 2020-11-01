@@ -1,0 +1,86 @@
+[
+    {
+        "domain": "wordFinding",
+        "text": "查找近义词",
+        "intent": "SYNONYM_QUERY",
+        "slots": {}
+    },
+	{
+        "domain": "wordFinding",
+        "text": "安静的近义词",
+        "intent": "SYNONYM_QUERY",
+        "slots": {
+            "name": "安静"
+        }
+    },
+	{
+        "domain": "wordFinding",
+        "text": "查找同义词",
+        "intent": "SYNONYM_QUERY",
+        "slots": {}
+    },
+    {
+        "domain": "wordFinding",
+        "text": "红的反义词",
+        "intent": "ANTONYM_QUERY",
+        "slots": {
+            "name": "红"
+        }
+    },
+    {
+        "domain": "wordFinding",
+        "text": "悲伤的近义词",
+        "intent": "SYNONYM_QUERY",
+        "slots": {
+            "name": "悲伤"
+        }
+    },
+    {
+        "domain": "wordFinding",
+        "text": "费劲的反义词是什么",
+        "intent": "ANTONYM_QUERY",
+        "slots": {
+            "name": "费劲"
+        }
+    },
+    {
+        "domain": "wordFinding",
+        "text": "哪个词是平淡的反义词",
+        "intent": "ANTONYM_QUERY",
+        "slots": {
+            "name": "平淡"
+        }
+    },
+	{
+        "domain": "wordFinding",
+        "text": "近的反义词是",
+        "intent": "ANTONYM_QUERY",
+        "slots": {
+            "name": "近"
+        }
+    },
+    {
+        "domain": "wordFinding",
+        "text": "与平淡意思相近的词语有哪些",
+        "intent": "SYNONYM_QUERY",
+        "slots": {
+            "name": "平淡"
+        }
+    },
+	{
+        "domain": "wordFinding",
+        "text": "肥胖的反义词",
+        "intent": "ANTONYM_QUERY",
+        "slots": {
+            "name": "肥胖"
+        }
+    },
+    {
+        "domain": "wordFinding",
+        "text": "替我搜一下平淡的反义词是什么",
+        "intent": "ANTONYM_QUERY",
+        "slots": {
+            "name": "平淡"
+        }
+    }
+]
