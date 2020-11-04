@@ -34,6 +34,7 @@ class CatSLU(object):
         # 请求类型: 几个附近、周边、旁边都是相似的。定位是不一样的。（定位也在inform-对象中）
         # 如果是其他槽位，如果不在query中，那么case略过。
         # music: '歌曲名', 'dontcare';
+        # 迁移的域，样本较少，考虑其他域呢
 
         self.dir_ = './data/catslu/catslu_traindev/data/music/'
         ontology = self.load_ontology(self.dir_ + "ontology.json")
