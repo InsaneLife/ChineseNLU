@@ -48,7 +48,7 @@ def read_json(file_:str):
 
 def write_json(out_json, file_:str):
     with open(file_, 'w', encoding="utf-8") as f: 
-        json.dump(out_json, f)
+        json.dump(out_json, f, ensure_ascii=False)
 
 def get_chunk_type(tok, id2tag):
     """
