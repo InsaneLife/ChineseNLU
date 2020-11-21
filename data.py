@@ -22,7 +22,7 @@ from tensorflow.python.keras.preprocessing import sequence
 import math
 import numpy as np
 import os 
-from util import read_file, convert_to_unicode, read_json
+from util import read_file, convert_to_unicode, read_json, write_json
 
 def parse_smp2020_json_file(file_):
     """
@@ -175,5 +175,17 @@ class CatSLU(object):
     # 读取文件，./data/catslu/catslu_traindev/data/
     
 
+def split_smp(file_='./data/smp2019/train.json'):
+    with open(file_) as f:
+        data_arr = json.load(f)
+    # 随机切分为训练集，验证集，测试集。
+    train_arr, rest = train_test_split(data_arr, test_size=0.2, random_state=2020)
+    val_arr, test_arr = train_test_split(rest, test_size=0.5, random_state=2020)
+    write_json(train_arr, './data/smp2019/train.json')
+    write_json(val_arr, './data/smp2019/val.json')
+    write_json(test_arr, './data/smp2019/test.json')
+    pass
+
 if __name__ == "__main__":
+    split_smp('./data/smp2019/train.json.ori')
     pass

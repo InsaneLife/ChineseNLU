@@ -89,8 +89,10 @@ def split_smp(file_):
     with open(file_) as f:
         data_arr = json.load(f)
     # 随机切分为训练集，验证集，测试集。
+    train_test_split()
     pass
 
 if __name__ == "__main__":
-    CatSLU()
+    # CatSLU()
+    split_smp('./data/smp2019/train.json.ori')
     pass

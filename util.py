@@ -46,6 +46,10 @@ def read_json(file_:str):
         out_arr = json.load(f)
     return out_arr
 
+def write_json(out_json, file_:str):
+    with open(file_, 'w', encoding="utf-8") as f: 
+        json.dump(out_json, f)
+
 def get_chunk_type(tok, id2tag):
     """
     :param tok:     tok = 4
