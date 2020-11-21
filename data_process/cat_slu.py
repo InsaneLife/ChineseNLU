@@ -79,6 +79,17 @@ class CatSLU(object):
     
     # 读取文件，./data/catslu/catslu_traindev/data/
     
+class SMP2019(object):
+    def __init__(self, file_):
+        self.file = file_
+        pass
+    pass
+
+def split_smp(file_):
+    with open(file_) as f:
+        data_arr = json.load(f)
+    # 随机切分为训练集，验证集，测试集。
+    pass
 
 if __name__ == "__main__":
     CatSLU()
