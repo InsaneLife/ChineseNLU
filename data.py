@@ -150,6 +150,9 @@ class Vocabulary(object):
         return len(self.voc2id)
 
 class CatSLU(object):
+    '''
+    
+    '''
     def __init__(self, dir_, ):
         self.dir_ = './data/catslu/catslu_traindev/data/map/'
         ontology = self.load_ontology(self.dir_ + "ontology.json")
