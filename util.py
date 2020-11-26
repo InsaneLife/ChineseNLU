@@ -12,6 +12,7 @@ import os
 import six
 import time
 import json
+import re
 
 def convert_to_unicode(text):
     """Converts `text` to Unicode (if it's not already), assuming utf-8 input."""
@@ -242,6 +243,9 @@ class Vocabulary(object):
 
     def __len__(self):
         return len(self.voc2id)
+
+def contain_eng(str0):
+    return bool(re.search('[a-z]', str0))
 
 if __name__ == "__main__":
     pass
