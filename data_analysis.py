@@ -70,8 +70,8 @@ def catslu_process_map(file_train, file_dev=None, file_test=None):
                     act_slot_value["-".join([act, k])] += 1
                     kv = "-".join([act, k, v])
                     if v not in q:
-                        if kv not in ['inform-操作-退出','inform-value-dontcare','inform-请求类型-周边','inform-请求类型-最近','inform-操作-重新导航','inform-操作-继续导航','inform-终点名称-公司']:
-                            print("v not in q:", q, act, k, v)
+                        if kv not in []:
+                            print("v not in q:", q, kv)
                             not_v_cnt += 1
                         else: 
                             kv_map[kv] += 1
@@ -93,7 +93,7 @@ def catslu_process_map(file_train, file_dev=None, file_test=None):
     pass
 
 if __name__ == "__main__":
-    domain = 'map'
+    domain = 'weather'
     data_dir = './data/catslu/catslu_traindev/data/{}/'.format(domain)
     test_file = './data/catslu/catslu_test/data/{}/test.json'.format(domain)
     catslu_process_map(data_dir + "train.json", data_dir + "development.json", test_file)
