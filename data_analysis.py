@@ -7,6 +7,11 @@
 @Desc    :   预处理
 1. 修正asr错误，通过查看slot value是否在ontology中，判断asr是否错误，如果asr错误，那么对slot value进行修正。算是track。
 2. 将catslu的三元组格式处理成intent、slots格式。
+todo:
+1. 构建各个域的分类的词典。
+2. 构建各个域的槽位词典。
+3. 将slots转换为序列模式，分类转换为多个类别。然后输出到一个文件，其他模块读入。
+4. 构建模型训练。
 
 '''
 
