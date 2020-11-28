@@ -44,7 +44,7 @@ class BaseModel(object):
         self.saver = tf.train.Saver()
     
     def restore_session(self, dir_model):
-        logging.info("Reloading the latest trained model...")
+        print("Reloading the latest trained model...")
         self.saver.restore(self.sess, dir_model)
 
     def _add_summary(self):
