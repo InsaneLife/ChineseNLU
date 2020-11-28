@@ -33,7 +33,7 @@ findalts-片名
 
 
 ## inform
-都在query中
+'inform-value-dontcare'
 
 
 # weather
