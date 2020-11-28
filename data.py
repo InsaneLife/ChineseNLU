@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # encoding=utf-8
 '''
-Author: 	Zhiyang.zzy 
+Author: 	zhiyang.zzy 
 Date: 		2020-09-23 22:46:15
-Contact: 	Zhiyangchou@gmail.com
+Contact: 	zhiyangchou@gmail.com
 FilePath: /ChineseNLU/data.py
 Desc: 		catslu数据处理，作为数据输入格式。
 todo: 
@@ -13,7 +13,6 @@ todo:
 # here put the import lib
 from inspect import isbuiltin
 import json
-from os import read
 import random
 from tensorflow.python.keras.backend import dtype
 import yaml
@@ -21,8 +20,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.python.keras.preprocessing import sequence
 import math
 import numpy as np
-import os 
-from util import read_file, convert_to_unicode, read_json, write_json
+from util import read_file, convert_to_unicode
 
 def parse_smp2020_json_file(file_):
     """
@@ -44,13 +42,6 @@ def get_smp2020(file_dir):
     """
     train_file = file_dir + "/train/source.json"
     parse_smp2020_json_file(train_file)
-
-def get_train_catslu_data(file_):
-    print("test")
-    with open(file_) as f:
-        data_set = json.load(f)
-    
-    pass
 
 class Vocabulary(object):
     def __init__(self, meta_file=None, allow_unk=0, unk="$UNK$", pad="$PAD$", max_len=None):
@@ -104,7 +95,7 @@ class Vocabulary(object):
 
     def _transform_seq2id(self, words, padding=0):
         out_ids = []
-        words = convert_to_unicode(words)
+        # words = convert_to_unicode(words)
         if self.max_len:
             words = words[:self.max_len]
         for w in words:
@@ -117,14 +108,15 @@ class Vocabulary(object):
     def _transform_intent2ont_hot(self, words, padding=0):
         # 将多标签意图转为 one_hot
         out_ids = np.zeros(self.size, dtype=np.float32)
-        words = convert_to_unicode(words)
+        if len(words) == 0:
+            return out_ids
         for w in words:
             out_ids[self._transform2id(w)] = 1.0
         return out_ids
 
     def _transform_seq2bert_id(self, words, padding=0):
         out_ids, seq_len = [], 0
-        words = convert_to_unicode(words)
+        # words = convert_to_unicode(words)
         if self.max_len:
             words = words[:self.max_len]
         seq_len = len(words)
@@ -149,46 +141,146 @@ class Vocabulary(object):
     def __len__(self):
         return len(self.voc2id)
 
+class OSDataset(object):
+    """意图和实体数据集集"""
+    def __init__(self, file_path, cfg, has_label=1, is_train=0):
+        # 需要传入 ontology字典，将意图，槽位之类的做转换。
+        self.file_path = file_path
+        self.is_train = is_train
+        self.cfg = cfg
+        # word 配置
+        self.word_vocab = Vocabulary(cfg['bert_dir'] + cfg['bert_vocab'], allow_unk=1, unk='[UNK]', pad='[PAD]', max_len=cfg['max_seq_len'])
+        # intent 配置
+        self.intent_vocab = Vocabulary(cfg['meta_dir'] + cfg['intent_file'])
+        # tag 配置
+        self.tag_vocab = Vocabulary(cfg['meta_dir'] + cfg['tag_file'], max_len=cfg['max_seq_len'])
+        if has_label:
+            self.get_label_dataset()
+        else:
+            self.get_unlabel_dataset()
+        pass
+
+    def get_label_dataset(self):
+        # 读取数据集，然后将其转为对应格式
+        self.dataset, self.id_set = [], []
+        for line in read_file(self.file_path, "\1"):
+            query, q_arr, tags, di, intents = line[:5]
+            intents = intents.split("\3")
+            q_arr = q_arr.split("\3")
+            tags = tags.split("\3")
+            self.dataset.append([query, q_arr, intents, tags])
+            q_ids, mask_ids, seg_ids, seq_len = self.word_vocab._transform_seq2bert_id(q_arr, padding=1)
+            intents_ids = self.intent_vocab._transform_intent2ont_hot(intents)
+            tags_ids = self.tag_vocab._transform_seq2id(tags, padding=1)
+            self.id_set.append([q_ids, mask_ids, seg_ids, seq_len, intents_ids, tags_ids])
+            # self.id_set.append([q_ids, mask_ids, seg_ids, intents_ids, tags_ids, q_arr, intents, tags])
+        pass
+    
+    def get_unlabel_dataset(self):
+        # 读取数据集，这部分数据集只做预测
+        self.dataset, self.id_set = [], []
+        for line in read_file(self.file_path, "\1"):
+            query = line[0]
+            self.dataset.append([query])
+            q_ids, mask_ids, seg_ids, seq_len = self.word_vocab._transform_seq2bert_id(query, padding=1)
+            self.id_set.append([q_ids, mask_ids, seg_ids, seq_len])
+        pass
+
+    def get_batch(self, batch_size=None):
+        if self.is_train:
+            random.shuffle(self.id_set)
+        if not batch_size:
+            batch_size = self.cfg['batch_size']
+        steps = int(math.ceil(float(len(self.id_set)) / batch_size))
+        for i in range(steps):
+            idx = i * batch_size
+            cur_set = self.id_set[idx: idx + batch_size]
+            yield zip(*cur_set)
+        pass
+
+    def __iter__(self):
+        for each in self.id_set:
+            yield each
+    def __len__(self):
+        return len(self.id_set)
+
 class CatSLU(object):
-    '''
+    """catslu数据集，已经处理成intent+slot sequence格式"""
+    def __init__(self, file_path, cfg, has_label=1, is_train=0):
+        self.file_path = file_path
+        self.is_train = is_train
+        self.cfg = cfg
+        # word 配置
+        self.word_vocab = Vocabulary(cfg['bert_dir'] + cfg['bert_vocab'], allow_unk=1, unk='[UNK]', pad='[PAD]', max_len=cfg['max_seq_len'])
+        # intent 配置
+        self.intent_vocab = Vocabulary(cfg['meta_dir'] + cfg['intent_file'])
+        # tag 配置
+        self.tag_vocab = Vocabulary(cfg['meta_dir'] + cfg['tag_file'], max_len=cfg['max_seq_len'])
+        if has_label:
+            self.get_label_dataset()
+        else:
+            self.get_unlabel_dataset()
+        pass
+    def get_label_dataset(self):
+        # 读取数据集，然后将其转为对应格式
+        self.dataset, self.id_set = [], []
+        for line in read_file(self.file_path, "\t"):
+            query, intents, tags = line[:3]
+            intents = intents.split("\3") if intents != "" else []
+            q_arr = query
+            tags = tags.split("\3")
+            self.dataset.append([query, q_arr, intents, tags])
+            q_ids, mask_ids, seg_ids, seq_len = self.word_vocab._transform_seq2bert_id(q_arr, padding=1)
+            intents_ids = self.intent_vocab._transform_intent2ont_hot(intents)
+            tags_ids = self.tag_vocab._transform_seq2id(tags, padding=1)
+            self.id_set.append([q_ids, mask_ids, seg_ids, seq_len, intents_ids, tags_ids])
+            # self.id_set.append([q_ids, mask_ids, seg_ids, intents_ids, tags_ids, q_arr, intents, tags])
+            pass
+        pass
     
-    '''
-    def __init__(self, dir_, ):
-        self.dir_ = './data/catslu/catslu_traindev/data/map/'
-        ontology = self.load_ontology(self.dir_ + "ontology.json")
-        train_ = read_json(self.dir_ + 'train.json')
-        dev_ = read_json(self.dir_ + 'development.json')
-        # 判断哪些槽位没有在query中的，
+    def get_unlabel_dataset(self):
+        # 读取数据集，这部分数据集只做预测
+        self.dataset, self.id_set = [], []
+        for line in read_file(self.file_path, "\1"):
+            query = line[0]
+            self.dataset.append([query])
+            q_ids, mask_ids, seg_ids, seq_len = self.word_vocab._transform_seq2bert_id(query, padding=1)
+            self.id_set.append([q_ids, mask_ids, seg_ids, seq_len])
+        pass
 
+    def get_batch(self, batch_size=None):
+        if self.is_train:
+            random.shuffle(self.id_set)
+        if not batch_size:
+            batch_size = self.cfg['batch_size']
+        steps = int(math.ceil(float(len(self.id_set)) / batch_size))
+        for i in range(steps):
+            idx = i * batch_size
+            cur_set = self.id_set[idx: idx + batch_size]
+            yield zip(*cur_set)
+        pass
 
-    @staticmethod
-    def load_ontology(ontology_file_path):
-        src_base_dir = os.path.dirname(ontology_file_path)
-        ontology = json.load(open(ontology_file_path))
-
-        for slot in list(ontology['slots']['informable']):
-            values = ontology['slots']['informable'][slot]
-            ## load lexicon file
-            if type(values) == str:
-                values = [line.strip() for line in open(os.path.join(src_base_dir, values)) if line.strip() != ""]
-            ontology['slots']['informable'][slot] = set(values)
-
-        return ontology
-    
-    # 读取文件，./data/catslu/catslu_traindev/data/
-    
-
-def split_smp(file_='./data/smp2019/train.json'):
-    with open(file_) as f:
-        data_arr = json.load(f)
-    # 随机切分为训练集，验证集，测试集。
-    train_arr, rest = train_test_split(data_arr, test_size=0.2, random_state=2020)
-    val_arr, test_arr = train_test_split(rest, test_size=0.5, random_state=2020)
-    write_json(train_arr, './data/smp2019/train.json')
-    write_json(val_arr, './data/smp2019/val.json')
-    write_json(test_arr, './data/smp2019/test.json')
-    pass
+    def __iter__(self):
+        for each in self.id_set:
+            yield each
+    def __len__(self):
+        return len(self.id_set)
 
 if __name__ == "__main__":
-    split_smp('./data/smp2019/train.json.ori')
-    pass
+    # data_path = "data/catslu/catslu_traindev/data/map/train.json"
+    # get_train_catslu_data(data_path)
+    # file_dir = "/mnt/nlp/zhiyang.zzy/project/public/ChineseNLU/data/smp2020/SMP2020-ECDT_Origin_3shot/"
+    # get_smp2020(file_dir)
+    # data_dir = "/mnt/nlp/zhiyang.zzy/project/python3project/data_warehouse_code/data/out/"
+    # date = "20200807"
+    # train_file, dev_file, test_file = data_dir + "train." + date + ".seg", data_dir + "val." + date + ".seg", data_dir + "test." + date + ".seg", 
+    cfg_path = "./config/config_catslu_map.yml"
+    cfg = yaml.load(open(cfg_path), Loader=yaml.FullLoader)
+    train_set = CatSLU(cfg['data_dir'] + cfg['train_file'], cfg, has_label=1, is_train=1)
+    for each in train_set.get_batch(4):
+        batch = list(each)
+        w_ids, mask_ids, seg_ids, seq_len, intents_ids, tags_ids = each
+        # w_ids, mask_ids, seg_ids, seq_len, intents_ids, tags_ids = each
+        # w_ids, mask_ids, seg_ids, seq_len, intents_ids, tags_ids, q_arr, intents, tags = each
+        pass
+

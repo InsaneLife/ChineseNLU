@@ -118,7 +118,7 @@ class JointBert(BaseModel):
             if i % 1000 == 0:
                 self.file_writer.add_summary(result[4], epoch * nbatches + i)
         eval_sf_acc = self.evaluate(dev)
-        logging.info("eval sf acc:", eval_sf_acc)
+        print("dev sf add:", eval_sf_acc)
         return eval_sf_acc
 
     def build_train_fd(self, batch):

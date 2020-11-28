@@ -1,0 +1,42 @@
+# dataset:
+data_dir: "./data/catslu/catslu_traindev/data/music/"
+train_file: "train.json.seg"
+dev_file: "development.json.seg"
+test_file: "./data/catslu/catslu_test/data/music/test.json.seg"
+mini_file: "train.mini"
+predict_file: "./result/osnlu/train.mini"
+
+meta_dir : "./data/catslu/catslu_traindev/data/music/meta/"
+intent_file: "intents"
+tag_file: "slots"
+max_seq_len: 30
+unk_word: "$UNK$"
+pad_word: "$PAD$"
+unk_tag: "O"
+batch_size: 128
+bert_dir: &bert_dir '/Volumes/HddData/ProjectData/NLP/bert/chinese_L-12_H-768_A-12/'
+# bert_dir: "/mnt/nlp/bert/ERNIE_stable-1.0.1/checkpoints/"
+bert_init_checkpoint: "bert_model.ckpt"
+bert_vocab: "vocab.txt"
+bert_config: "bert_config.json"
+
+# model:
+alias: "cat_slu_music"
+task_type: "train"
+# checkpoint_dir: "result/checkpoint/bert_1019/model" # 非crf，
+# checkpoint_dir: "result/checkpoint/bert_1019_crf/model" # crf，
+checkpoint_dir: "result/checkpoint/cat_slu/bert_crf/music/model" # crf，使用train.20200630|数据训练，不带外卖
+saved_model_dir: "result/checkpoint/cat_slu/bert_crf/music/"
+early_stop: True
+epoch_no_imprv: 5
+use_crf: 1
+optimizer: "adam"
+learning_rate: 0.001
+lr_decay: 0.95
+decay_step: 7000
+dropout: 0.1
+num_epoch: 30
+embedding_dim: 100
+bert_lr: 0.00003
+warmup_proportion: 0.1
+use_sigmoid: 1

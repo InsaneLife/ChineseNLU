@@ -22,7 +22,7 @@ def convert_to_unicode(text):
         elif isinstance(text, bytes):
             return text.decode("utf-8", "ignore")
         else:
-            raise ValueError("Unsupported string type: %s" % (type(text)))
+            raise ValueError("Unsupported string type: %s, %s" % (type(text), text))
     elif six.PY2:
         if isinstance(text, str):
             return text.decode("utf-8", "ignore")
@@ -40,6 +40,11 @@ def read_file(file_:str, splitter:str=None):
         if splitter:
             out_arr = [x.split(splitter) for x in out_arr]
     return out_arr
+
+def write_file(out_arr:list, file_:str, splitter='\t'):
+    with open(file_, 'w', encoding='utf-8') as out:
+        for line in out_arr:
+            out.write(splitter.join([str(x) for x in line]) + '\n')
 
 def read_json(file_:str):
     out_arr = []
